@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const environmentSchema = new Schema({
-  id: Number,
+  day: Number,
   facts: Array,
   sources: Array
 });
