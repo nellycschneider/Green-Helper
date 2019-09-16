@@ -3,14 +3,35 @@ const router = express.Router();
 const Animals = require("../models/Animals");
 const Enviroment = require("../models/Environment");
 const Recipes = require("../models/Recipes");
+const User = require("../models/User");
 
 /* GET home page */
+// router.get("/", (req, res, next) => {
+//   res.render("index");
+// });
+
 router.get("/", (req, res, next) => {
-  res.render("index");
+  const user = req.user;
+  console.log("req.user: ", req.user);
+  res.render("index", { user: user });
 });
 
-//re
-router.get("/dashboard", (req, res) => {
+// create a middleware that checks if a user is logged in
+
+const loginCheck = () => {
+  return (req, res, next) => {
+    //if(rec.user)
+    if (req.isAuthenticated()) {
+      // if user is logged in, proceed to the next function
+      next();
+    } else {
+      // else if user is not logged in, redirect to /login
+      res.redirect("/auth/login");
+    }
+  };
+};
+
+router.get("/dashboard", loginCheck(), (req, res) => {
   var myAnimals;
   // var environment;
 
@@ -42,8 +63,6 @@ router.get("/dashboard", (req, res) => {
         .catch(err => {
           console.log(err);
         });
-
-      //recipes here
     })
     .catch(err => {
       console.log(err);
@@ -51,9 +70,13 @@ router.get("/dashboard", (req, res) => {
 });
 
 router.get("/animals", (req, res, next) => {
-  // currentDate - req.user.created_at
+  let today = new Date();
+  let currentDay = today.getDate();
+  console.log(currentDay);
+  let user = req.user;
+  let displayDate = currentDay - user.created_at.getDate() + 1;
 
-  Animals.findOne({ day: 4 })
+  Animals.findOne({ day: displayDate })
     .then(animal => {
       //
       res.render("animals", { animal: animal });
