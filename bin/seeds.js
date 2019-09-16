@@ -248,21 +248,6 @@ const recipes = [
   //   video: "https://youtu.be/Jpq6puQleJ0"
   // },
 ]
-  .then(() => {
-    return User.create(users);
-  })
-  .then(usersCreated => {
-    console.log(`${usersCreated.length} users created with the following id:`);
-    console.log(usersCreated.map(u => u._id));
-  })
-  .then(() => {
-    // Close properly the connection to Mongoose
-    mongoose.disconnect();
-  })
-  .catch(err => {
-    mongoose.disconnect();
-    throw err;
-  });
 
 // source: Cowspiracy Facts
 

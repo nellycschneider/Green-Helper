@@ -1,0 +1,20 @@
+<div id="recipeContainer">
+  
+  {{#with recipes}}
+    <img src={{image}} alt="">
+    <h1>{{title}}</h1>
+    <p>{{description}}</p>
+    <span>Preperation Time: {{prep_time}} minutes</span>
+    <span>Cooking Time: {{cook_time}} minutes</span>
+    <span>Total time: {{}} minutes</span>
+    <ul id="ingerdients">
+      <li></li>
+    </ul>
+    <ol:instructions>
+      <li></li>
+    </ol:instructions>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/{{video}}" frameborder="0"
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  {{/with}}
+
+</div>
