@@ -6,6 +6,11 @@ body {
 a {
   color: #00b7ff; }
 
+.recipeBody {
+  padding: 0;
+  margin: 0;
+  background-color: #ffffc5; }
+
 #indexContainer {
   display: flex;
   flex-direction: column;
@@ -13,5 +18,21 @@ a {
   align-items: center;
   height: 100vh;
   width: 100vw; }
+
+#recipeContainer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5%; }
+
+#recipeImage {
+  height: 500px;
+  width: 500px;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  object-fit: cover; }
+
+#recipeHeader {
+  justify-content: flex-start;
+  font-size: 2rem; }
 
 /*# sourceMappingURL=style.css.map */

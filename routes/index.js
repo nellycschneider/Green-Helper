@@ -63,4 +63,17 @@ router.get("/animals", (req, res, next) => {
     });
 });
 
+router.get("/recipes", (req, res, next) => {
+  // currentDate - req.user.created_at
+
+  Recipes.findOne({day: 1})
+    .then(recipe => {
+      //
+      res.render("recipes",{ recipes: recipe, layout: false });
+    })
+    .catch(err => {
+      next(err);
+    });
+});
+
 module.exports = router;
