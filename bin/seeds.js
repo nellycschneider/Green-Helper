@@ -35,21 +35,21 @@ let users = [
 ];
 
 User.deleteMany()
-.then(() => {
-  return User.create(users)
-})
-.then(usersCreated => {
-  console.log(`${usersCreated.length} users created with the following id:`);
-  console.log(usersCreated.map(u => u._id));
-})
-.then(() => {
-  // Close properly the connection to Mongoose
-  mongoose.disconnect()
-})
-.catch(err => {
-  mongoose.disconnect()
-  throw err
-})
+  .then(() => {
+    return User.create(users);
+  })
+  .then(usersCreated => {
+    console.log(`${usersCreated.length} users created with the following id:`);
+    console.log(usersCreated.map(u => u._id));
+  })
+  .then(() => {
+    // Close properly the connection to Mongoose
+    mongoose.disconnect();
+  })
+  .catch(err => {
+    mongoose.disconnect();
+    throw err;
+  });
 
 const recipes = [
   {
@@ -270,7 +270,7 @@ Recipes.insertMany(recipes).then(data => {
 
 let environmentFacts = [
   {
-    id: 1,
+    day: 1,
     facts: [
       "2,500 gallons of water are needed to produce 1 pound of beef.",
       "477 gallons of water are required to produce 1lb. of eggs."
@@ -281,7 +281,7 @@ let environmentFacts = [
     ]
   },
   {
-    id: 2,
+    day: 2,
     facts: [
       "1/3 of the planet is desertified, with livestock as the leading driver.",
       "Nearly half of the contiguous US is devoted to animal agriculture."
@@ -292,7 +292,7 @@ let environmentFacts = [
     ]
   },
   {
-    id: 3,
+    day: 3,
     facts: [
       "90-100 million tons of fish are pulled from our oceans each year.",
       "For every 1 pound of fish caught, up to 5 pounds of unintended marine species are caught and discarded as by-kill."
@@ -303,7 +303,7 @@ let environmentFacts = [
     ]
   },
   {
-    id: 4,
+    day: 4,
     facts: [
       "Leading cause of rainforest destruction is livestock and feedcrops.",
       "Up to 137 plant, animal and insect species are lost every day."
@@ -314,7 +314,7 @@ let environmentFacts = [
     ]
   },
   {
-    id: 5,
+    day: 5,
     facts: [
       "Cows drink 45 billion gallons of water & eat 135 billion pounds a day.",
       "We are currently growing enough food to feed 10 billion people."
@@ -325,7 +325,7 @@ let environmentFacts = [
     ]
   },
   {
-    id: 6,
+    day: 6,
     facts: [
       "82% of starving children live in countries where food is fed to animals, and eaten by other countries.",
       "Each day, a person who eats a vegan diet saves 1,100 gallons of water, 45 pounds of grain, 30 sq ft of forested land, 20 lbs CO2 equivalent, and one animal’s life."
@@ -336,7 +336,7 @@ let environmentFacts = [
     ]
   },
   {
-    id: 7,
+    day: 7,
     facts: [
       "900 gallons of water are needed for 1lb. of cheese.",
       "1,000 gallons of water are required to produce 1 gallon of milk."
@@ -347,7 +347,7 @@ let environmentFacts = [
     ]
   },
   {
-    id: 8,
+    day: 8,
     facts: [
       "Ten thousand years ago, 99% of biomass (i.e. zoomass) was wild animals. Today, humans and the animals that we raise as food make up 98% of the zoomass.",
       "Livestock is responsible for 65% of all human-related emissions of nitrous oxide – a greenhouse gas with 296 times the global warming potential of carbon dioxide."
@@ -358,7 +358,7 @@ let environmentFacts = [
     ]
   },
   {
-    id: 9,
+    day: 9,
     facts: [
       "80% of antibiotic sold in the US are for livestock.",
       "More than 6 million animals are killed for food every hour."
@@ -369,7 +369,7 @@ let environmentFacts = [
     ]
   },
   {
-    id: 10,
+    day: 10,
     facts: [
       "Animal agriculture is responsible for up to 91% of Amazon destruction.",
       "1-2 acres of rainforest are cleared every second."
@@ -380,7 +380,7 @@ let environmentFacts = [
     ]
   },
   {
-    id: 11,
+    day: 11,
     facts: [
       "3/4 of the world’s fisheries are exploited or depleted.",
       "We could see fishless oceans by 2048."
@@ -391,7 +391,7 @@ let environmentFacts = [
     ]
   },
   {
-    id: 12,
+    day: 12,
     facts: [
       "Livestock or livestock feed occupies 1/3 of the earth’s ice-free land.",
       "Livestock covers 45% of the earth’s total land."
@@ -402,7 +402,7 @@ let environmentFacts = [
     ]
   },
   {
-    id: 13,
+    day: 13,
     facts: [
       "5% of water consumed in the US is by private homes. 55% of water consumed in the US is for animal agriculture.",
       "Animal Agriculture is responsible for 20%-33% of all fresh water consumption in the world today.  "
@@ -413,7 +413,7 @@ let environmentFacts = [
     ]
   },
   {
-    id: 14,
+    day: 14,
     facts: [
       "As many as 40% (63 billion pounds) of fish caught globally every year are discarded.",
       "USDA predator killing of wild animals to protect livestock."
