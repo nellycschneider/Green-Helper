@@ -3,6 +3,7 @@ const router = express.Router();
 const Animals = require("../models/Animals");
 const Enviroment = require("../models/Environment");
 const Recipes = require("../models/Recipes");
+const User = require("../models/User");
 
 /* GET home page */
 router.get("/", (req, res, next) => {
@@ -42,8 +43,6 @@ router.get("/dashboard", (req, res) => {
         .catch(err => {
           console.log(err);
         });
-
-      //recipes here
     })
     .catch(err => {
       console.log(err);
@@ -51,9 +50,15 @@ router.get("/dashboard", (req, res) => {
 });
 
 router.get("/animals", (req, res, next) => {
-  // currentDate - req.user.created_at
+  let today = new Date();
+  let dd = today.getDate();
+  let displayDate = dd - req.user.created_at + 1;
 
-  Animals.findOne({ day: 4 })
+  User.findOne({ username }).then(data => {
+    //
+  });
+
+  Animals.findOne({ day: displayDate })
     .then(animal => {
       //
       res.render("animals", { animal: animal });
