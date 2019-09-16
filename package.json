@@ -27,5 +27,20 @@
   },
   "devDependencies": {
     "nodemon": "^1.12.1"
-  }
+  },
+  "main": "app.js",
+  "bin": {
+    "green-helper": "seeds.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nellycschneider/Green-Helper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nellycschneider/Green-Helper/issues"
+  },
+  "homepage": "https://github.com/nellycschneider/Green-Helper#readme",
+  "description": ""
 }

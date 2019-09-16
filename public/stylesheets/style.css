@@ -1,12 +1,10 @@
 body {
   padding: 0;
   margin: 0;
-  font: 10px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
+  font: 10px "Lucida Grande", Helvetica, Arial, sans-serif; }
 
 a {
-  color: #00B7FF;
-}
+  color: #00B7FF; }
 
 #indexContainer {
   display: flex;
@@ -14,5 +12,6 @@ a {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  width: 100vw;
-}
+  width: 100vw; }
+
+/*# sourceMappingURL=style.css.map */
