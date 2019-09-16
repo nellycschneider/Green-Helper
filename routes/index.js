@@ -51,8 +51,7 @@ router.get("/dashboard", (req, res) => {
 });
 
 router.get("/animals", (req, res, next) => {
-
-  currentDate - req.user.created_at
+  // currentDate - req.user.created_at
 
   Animals.findOne({ day: 4 })
     .then(animal => {
