@@ -53,7 +53,7 @@ User.deleteMany()
 
 const recipes = [
   {
-    id: 1,
+    day: 1,
     title: "Paella", // https://www.theeasyvegan.org/vegan-paella/
     description:
       "The quintessential Spanish dish. Simple but inexplicably delicious, with fresh onions, garlic, peppers and a lovely blend of spices.",
@@ -86,10 +86,10 @@ const recipes = [
       "Remove from the heat and uncover. Taste the rice; if it is properly cooked, cover the pan and let rest for 5 minutes. If the rice is undercooked you can add a little water or stock and simmer for a few minutes until cooked, then rest.",
       "Use a spatula to get under the whole paella and socarrat and then serve. Garnish with flat leaf parsley and lemon wedges if desired."
     ],
-    video: "https://youtu.be/6qz-ObThYo4"
+    url: "6qz-ObThYo4"
   },
   {
-    id: 2,
+    day: 2,
     title: "Peanut Butter Pancakes", // https://minimalistbaker.com/1-bowl-peanut-butter-protein-pancakes/
     description:
       "Fluffy, light, and packed with fiber, these pancakes are the perfect way to kick off the weekend! They come together in only 20 minutes with just 1 bowl.",
@@ -121,10 +121,10 @@ const recipes = [
       "Cook for about 2 minutes more on the other side, then plate. Top with desired toppings, such as vegan butter or more peanut butter, banana, and a light drizzle of maple syrup.",
       "Best when fresh, though leftovers will reheat well the next day in the microwave or oven. See notes for freezing instructions."
     ],
-    video: "https://youtu.be/m8GRpotyje8"
+    url: "m8GRpotyje8"
   },
   {
-    id: 3,
+    day: 3,
     title: "Chocolate Cake", // https://thehappypear.ie/recipes/the-most-epic-vegan-chocolate-cake/
     description:
       "This epic cake is by no means healthy, but it is insanely delicious and indulgent – just as any good chocolate cake should be! This is food for the soul and definitely one to make for a special occasion, or when you feel like royally impressing your guests.",
@@ -168,10 +168,10 @@ const recipes = [
       "Remove your chilled frosting from the fridge and spread over the monstrosity that is this amazing cake.",
       "Add the final touches of grated chocolate and raspberries and voilà!!"
     ],
-    video: "https://youtu.be/2dT-Zbg9nHA"
+    url: "2dT-Zbg9nHA"
   },
   {
-    id: 4,
+    day: 4,
     title: "Lentil & Chickpea Shepherd's Pie", // https://www.theeasyvegan.org/vegan-lentil-and-chickpea-shepherds-pie/
     description:
       "With a rich and hearty filling and that smooth ‘cheesy’ mash topping, this shepherd’s pie is perfect for those cold winter’s nights.",
@@ -215,10 +215,10 @@ const recipes = [
       "Remove from the oven and allow to rest for 5 minutes. Cook your veggies by steaming or boiling for 3 to 5 minutes until tender.",
       "To serve, use a knife to cut portions in the shepherd’s pie, using a spatula to remove portions from the dish."
     ],
-    video: "https://youtu.be/AjMDtT1Jurk"
+    url: "AjMDtT1Jurk"
   },
   {
-    id: 5,
+    day: 5,
     title: "Dahl", // https://thehappypear.ie/recipes/5-minute-dahl/
     description:
       "Dahl is the perfect comfort food. It’s versatile and nutritious and is a foolproof way to sneak some much needed lentils into yours or your kids diet!",
@@ -254,7 +254,7 @@ const recipes = [
       "Add in the spices, salt, black pepper, spinach and the juice of one lime",
       "Add the coriander stalks"
     ],
-    video: "https://youtu.be/Jpq6puQleJ0"
+    url: "Jpq6puQleJ0"
   }
 ];
 
