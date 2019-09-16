@@ -1,0 +1,33 @@
+<h1>Dashboard</h1>
+
+{{!-- animals --}}
+{{#each animalList}}
+<h3>{{name}}</h3>
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/{{url}}" frameborder="0"
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+<br>
+<a href="{{url}}">YouTube video</a>
+{{/each}}
+
+
+{{!-- environment --}}
+{{#each envFacts}}
+<ul>
+  {{#each facts}}
+  <li>{{this}}</li>
+  {{/each}}
+</ul>
+<ul>
+  {{#each sources}}
+  <li>{{this}}</li>
+  {{/each}}
+</ul>
+
+{{/each}}
+
+{{!-- recipe --}}
+{{!-- {{#each }}
+
+{{/each}} --}}

@@ -225,7 +225,7 @@ let animalResources = [
   {
     id: 1,
     name: "Why Vegan? [NOT-GRAPHIC]",
-    url: "https://www.youtube.com/watch?v=y2k4NHjAP84"
+    url: "y2k4NHjAP84"
   },
   {
     id: 2,
