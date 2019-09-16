@@ -35,7 +35,6 @@ let users = [
 ];
 
 User.deleteMany()
-<<<<<<< HEAD
 .then(() => {
   return User.create(users)
 })
@@ -249,7 +248,6 @@ const recipes = [
   //   video: "https://youtu.be/Jpq6puQleJ0"
   // },
 ]
-=======
   .then(() => {
     return User.create(users);
   })
@@ -518,4 +516,3 @@ Animals.insertMany(animalResources).then(data => {
       console.log(err);
     });
 });
->>>>>>> 3ab3d2233ccc4e51918957dd19412ede5ed32d6f
