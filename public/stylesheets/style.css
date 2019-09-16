@@ -1,9 +1,24 @@
 body {
   padding: 0;
   margin: 0;
+<<<<<<< HEAD
+  font: 10px "Lucida Grande", Helvetica, Arial, sans-serif; }
+
+a {
+  color: #00B7FF; }
+
+#indexContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw; }
+=======
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
 
 a {
   color: #00b7ff; }
+>>>>>>> 3ab3d2233ccc4e51918957dd19412ede5ed32d6f
 
 /*# sourceMappingURL=style.css.map */

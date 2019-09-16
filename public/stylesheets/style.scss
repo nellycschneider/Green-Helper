@@ -1,9 +1,22 @@
 body {
   padding: 0;
   margin: 0;
+<<<<<<< HEAD
+  font: 10px "Lucida Grande", Helvetica, Arial, sans-serif;
+=======
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+>>>>>>> 3ab3d2233ccc4e51918957dd19412ede5ed32d6f
 }
 
 a {
   color: #00b7ff;
+}
+
+#indexContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
 }
