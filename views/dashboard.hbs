@@ -1,37 +1,56 @@
-<h1>Dashboard</h1>
+<!DOCTYPE html>
+<html lang="en">
 
-<a class="btn btn-lg btn-secondary" href="/animals">Animals</a>
-<a class="btn btn-lg btn-secondary" href="/environment">Environment</a>
-<a class="btn btn-lg btn-secondary" href="/recipes">Recipe</a>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="/stylesheets/dashboard.css">
+  <title>Dashboard</title>
+</head>
 
-{{!-- animals --}}
-{{#each animalList}}
-<h3>{{name}}</h3>
-<br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/{{url}}" frameborder="0"
-  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<br>
-<br>
-<a href="{{url}}">YouTube video</a>
-{{/each}}
+<body>
+  <a class="btn" href="/auth/logout">Log Out</a>
+  <a class="btn" href="/killcounter">Kill Counter</a>
 
+  <div class="headings">
+    <h1>Welcome sunshine!</h1>
+    <h2>Thanks for checking back in ❤️</h2>
+  </div>
 
-{{!-- environment --}}
-{{#each envFacts}}
-<ul>
-  {{#each facts}}
-  <li>{{this}}</li>
-  {{/each}}
-</ul>
-<ul>
-  {{#each sources}}
-  <li>{{this}}</li>
-  {{/each}}
-</ul>
+  <div class="container">
+    <div class="main-container">
+      <div class="small-container">
+        <div class="text">
+          <p> Animal resource:
+          </p>
+        </div>
+        <div class="button">
+          <a class="btn btn-lg btn-secondary" href="/animals">Animals</a>
+        </div>
+      </div>
+      <div class="small-container">
+        <div class="text">
+          <p> Environmental facts:
+          </p>
+        </div>
+        <div class="button">
+          <a class="btn btn-lg btn-secondary" href="/environment">Environment</a>
+        </div>
+      </div>
+      <div class="small-container">
+        <div class="text">
+          <p> Yummy recipe:
+          </p>
+        </div>
+        <div class="button">
+          <a class="btn btn-lg btn-secondary" href="/recipes">Recipe</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
 
-{{/each}}
-
-{{!-- recipe --}}
-{{#each recipeList}}
-<h2>{{title}}</h2>
-{{/each}}
+</html>

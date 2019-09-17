@@ -12,39 +12,41 @@
 </head>
 
 <body>
+  <div class="background-pic">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <h3 class="masthead-brand">Green Helper 🌱</h3>
+          <nav class="nav nav-masthead justify-content-center">
+            {{!-- <a class="nav-link active" href="/">Home</a> --}}
+            <a class="nav-link active" href="/dashboard">Dashboard</a>
+            <a class="nav-link active" href="/killcounter">Kill Counter</a>
 
-  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-    <header class="masthead mb-auto">
-      <div class="inner">
-        <h3 class="masthead-brand">Green Helper 🌱</h3>
-        <nav class="nav nav-masthead justify-content-center">
-          {{!-- <a class="nav-link active" href="/">Home</a> --}}
-          <a class="nav-link active" href="/dashboard">Dashboard</a>
-          <a class="nav-link active" href="/killcounter">Kill Counter</a>
-
-        </nav>
-      </div>
-    </header>
-
-    <main role="main" class="inner cover">
-      <div class="middle-container">
-        <div class="content-container">
-          <h1 class="cover-heading">Green Helper 🌱</h1>
-          <p class="lead">Are you ready to take the challenge?</p>
+          </nav>
         </div>
-        <div class="buttons">
-          <a class="btn btn-lg btn-secondary" href="/auth/signup">Sign Up</a>
-          <a class="btn btn-lg btn-secondary" href="/auth/login">Log In</a>
-        </div>
-      </div>
-    </main>
+      </header>
 
-    <footer class="mastfoot mt-auto">
-      <div class="inner">
-        <p>Made with love by Steve 🇬🇧 and Nelly 🇩🇪</p>
-      </div>
-    </footer>
+      <main role="main" class="inner cover">
+        <div class="middle-container">
+          <div class="content-container">
+            <h1 class="cover-heading">Green Helper 🌱</h1>
+            <p class="lead">Are you ready to take the challenge?</p>
+          </div>
+          <div class="buttons">
+            <a class="btn btn-lg btn-secondary" href="/auth/signup">Sign Up</a>
+            <a class="btn btn-lg btn-secondary" href="/auth/login">Log In</a>
+          </div>
+        </div>
+      </main>
+
+      <footer class="mastfoot mt-auto">
+        <div class="inner">
+          <p>Made with love by Steve 🇬🇧 and Nelly 🇩🇪</p>
+        </div>
+      </footer>
+    </div>
   </div>
+
 
   {{!-- <a href="/dashboard">Go to dashboard</a> --}}
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

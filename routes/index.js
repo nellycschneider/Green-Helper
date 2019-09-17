@@ -50,7 +50,8 @@ router.get("/dashboard", loginCheck(), (req, res) => {
               res.render("dashboard", {
                 envFacts: env,
                 animalList: myAnimals,
-                recipeList: recipe
+                recipeList: recipe,
+                layout: false
               });
             })
             .catch(err => {
