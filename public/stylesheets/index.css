@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Righteous&display=swap");
+/*
+ * Globals
+ */
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff; }
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333333;
+  text-shadow: none;
+  /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: 0.05rem solid #fff; }
+
+.btn:hover {
+  background-color: #addb71; }
+
+/*
+ * Base structure
+ */
+html,
+body {
+  height: 100%; }
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+  font-family: "Raleway", sans-serif;
+  background-image: url("https://images.unsplash.com/photo-1525104252592-bca3a8b6c04c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2253&q=80"); }
+
+.middle-container {
+  margin: 0; }
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.buttons a {
+  color: #7b944a; }
+
+.buttons a:hover {
+  color: white;
+  text-decoration: none; }
+
+.btn {
+  margin: 20px;
+  width: 10vw; }
+
+h1 {
+  font-family: "Righteous", cursive;
+  font-size: 100px;
+  color: #d1e787; }
+
+.content-container p {
+  font-size: 35px; }
+
+/*
+ * Header
+ */
+.masthead {
+  margin-bottom: 2rem; }
+
+.masthead-brand {
+  margin-bottom: 0; }
+
+.nav-masthead .nav-link {
+  padding: 0.25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: transparent;
+  border-bottom: 0.25rem solid transparent; }
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, 0.25); }
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem; }
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff; }
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left; }
+  .nav-masthead {
+    float: right; } }
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 0 1.5rem; }
+
+.cover .btn-lg {
+  padding: 0.5rem 1.25rem;
+  font-weight: 700; }
+
+/*
+ * Footer
+ */
+.mastfoot {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7); }
+
+.counter h2 {
+  font-size: 50px; }
+
+.counter p {
+  font-size: 30px; }
+
+/*# sourceMappingURL=index.css.map */
