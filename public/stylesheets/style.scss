@@ -4,37 +4,58 @@ body {
   padding: 0;
   margin: 0;
   font-family: ‘Raleway’, sans-serif;
-  background: url("https://images.unsplash.com/photo-1562666810-08c31d401860?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2657&q=80")no-repeat center center fixed; 
+}
+
+/* ########################################## - RECIPES STYLE - ########################################## */
+
+.recipeBody {
+  background: url("https://images.unsplash.com/photo-1562666810-08c31d401860?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2657&q=80")
+    no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  
 }
 
 .recipeContainer {
   display: flex;
   flex-direction: column;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3), 0 1px 4px rgba(0, 0, 0, 0.2);
-  margin: 3% 20% 3% 20%;
   padding: 2% 3% 5% 3%;
   border-radius: 8px;
   background-color: rgba(255, 255, 255, 0.9);
 }
 
-.recipeContainer p {
+#recipeDescription {
   text-align: center;
+  font-size: 1.4rem;
+  padding-bottom: 3rem;
 }
 
 #recipeImage {
-  height: 500px;
-  width: 500px;
+  height: 200px;
+  width: 200px;
   background-repeat: no-repeat;
   border-radius: 8px;
   align-self: center;
   object-fit: cover;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3), 0 1px 4px rgba(0, 0, 0, 0.3);
 }
+
+@media (min-width: 920px) {
+  #recipeImage {
+    height: 300px;
+    width: 300px;
+  }
+}
+
+@media (min-width: 1160px) {
+  #recipeImage {
+    height: 500px;
+    width: 500px;
+  }
+}
+
 #recipeHeading {
   display: flex;
   justify-content: space-around;
@@ -43,12 +64,14 @@ body {
 }
 
 #recipeHeadingLeft {
-  flex: 1;
+  flex: 3;
+  max-width: 500px;
 }
 #recipeHeadingRight {
   display: flex;
   justify-content: flex-end;
-  flex: 3;
+  flex: 1;
+  text-align: center;
 }
 
 #recipeHeading h1 {
@@ -59,9 +82,7 @@ body {
 #recipeHeading p {
   font-size: 0.8rem;
   justify-content: flex-end;
-  border: black solid 1px;
-  padding: 1%;
-
+  padding: 3px;
 }
 
 #recipeUrl {
@@ -73,7 +94,38 @@ hr {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
+/* ########################################## - ANIMALS STYLE - ########################################## */
 
+.animalsBody {
+  display: flex;
+  justify-content: center;
+  background: url("https://images.unsplash.com/photo-1495107334309-fcf20504a5ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
 
+.animalsContainer {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3), 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 2% 3% 5% 3%;
+  width: 70vw;
+  height: 80vh;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
 
+.animalsContainer h3 {
+  text-align: center;
+}
 
+#animalsUrl {
+  align-self: center;
+  width: 60vw;
+  height: 70vh;
+}

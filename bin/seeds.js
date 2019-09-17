@@ -61,6 +61,7 @@ const recipes = [
       "https://www.theeasyvegan.org/wp-content/uploads/2018/10/Paella-side-shot2.jpg",
     prep_time: 10,
     cook_time: 20,
+    total_time: 30,
     ingredients: [
       "125 g meat substitute",
       "2 medium onions, sliced",
@@ -97,6 +98,7 @@ const recipes = [
       "https://minimalistbaker.com/wp-content/uploads/2019/02/Peanut-Butter-Protein-Pancakes-v1-05.jpg",
     prep_time: 15,
     cook_time: 5,
+    total_time: 20,
     ingredients: [
       "batch flax egg, 1 Tbsp flaxseed meal + 2 Tbsp water",
       "120ml almond milk",
@@ -131,6 +133,7 @@ const recipes = [
     image: "https://pbs.twimg.com/media/CKoMqedUMAA2EPW?format=jpg&name=medium",
     prep_time: 10,
     cook_time: 10,
+    total_time: 30,
     ingredients: [
       "400ml coconut oil (melted)",
       "300g white flour (spelt)",
@@ -179,6 +182,7 @@ const recipes = [
       "https://www.theeasyvegan.org/wp-content/uploads/2018/11/Vegan-lentil-chickpea-shepherds-pie2.jpg",
     prep_time: 20,
     cook_time: 25,
+    total_time: 45,
     ingredients: [
       "700g maris piper potatoes",
       "100g vegan cheese, finely grated",
@@ -226,6 +230,7 @@ const recipes = [
       "https://www.mealgarden.com/media/cache/cc/82/cc82d5dfcf31a04ad3e9fd52a0bc93fe.jpg",
     prep_time: 10,
     cook_time: 15,
+    total_time: 35,
     ingredients: [
       "3 cloves of garlic",
       "1 nub of ginger",

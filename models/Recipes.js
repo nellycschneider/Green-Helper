@@ -9,6 +9,7 @@ const recipesSchema = new Schema({
   image: String,
   prep_time: Number,
   cook_time: Number,
+  total_time: Number,
   ingredients: Array,
   instructions: Array,
   url: String
