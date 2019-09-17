@@ -1,48 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap");
+
 body {
   padding: 0;
   margin: 0;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: ‘Raleway’, sans-serif;
+  background: url("https://images.unsplash.com/photo-1562666810-08c31d401860?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2657&q=80")no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
 }
 
-a {
-  color: #00b7ff;
-}
-
-.recipeBody {
-  padding: 0;
-  margin: 0;
-  background-color: #ffffc5;
-}
-
-#indexContainer {
+.recipeContainer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  width: 100vw;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3), 0 1px 4px rgba(0, 0, 0, 0.2);
+  margin: 3% 20% 3% 20%;
+  padding: 2% 3% 5% 3%;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
-#recipeContainer {
-  display: flex;
-  flex-direction: column;
-  // justify-content: center;
-  // align-items: center;
-  padding-top: 5%;
+.recipeContainer p {
+  text-align: center;
 }
+
 #recipeImage {
   height: 500px;
   width: 500px;
   background-repeat: no-repeat;
   border-radius: 8px;
-  // object-fit: none;
+  align-self: center;
   object-fit: cover;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3), 0 1px 4px rgba(0, 0, 0, 0.3);
 }
-#recipeHeader {
-  justify-content: flex-start;
-  font-size: 2rem;
+#recipeHeading {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  padding-top: 3%;
 }
 
+#recipeHeadingLeft {
+  flex: 1;
+}
+#recipeHeadingRight {
+  display: flex;
+  justify-content: flex-end;
+  flex: 3;
+}
+
+#recipeHeading h1 {
+  font-size: 2.5rem;
+  align-self: left;
+}
+
+#recipeHeading p {
+  font-size: 0.8rem;
+  justify-content: flex-end;
+  border: black solid 1px;
+  padding: 1%;
+
+}
+
+#recipeUrl {
+  align-self: center;
+}
+
+hr {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.12);
+}
 
 
 
