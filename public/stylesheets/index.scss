@@ -199,3 +199,19 @@ h1 {
   background-size: cover;
   width: 100vw;
 }
+
+a:hover {
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  color: white;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}

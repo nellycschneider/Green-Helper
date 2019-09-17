@@ -72,7 +72,6 @@ router.get("/dashboard", loginCheck(), (req, res) => {
 router.get("/animals", loginCheck(), (req, res, next) => {
   let today = new Date();
   let currentDay = today.getDate();
-  console.log(currentDay);
   let user = req.user;
   let displayDate = currentDay - user.created_at.getDate() + 1;
 
@@ -89,7 +88,6 @@ router.get("/animals", loginCheck(), (req, res, next) => {
 router.get("/recipes", loginCheck(), (req, res, next) => {
   let today = new Date();
   let currentDay = today.getDate();
-  console.log(currentDay);
   let user = req.user;
   let displayDate = currentDay - user.created_at.getDate() + 1;
 
@@ -106,7 +104,6 @@ router.get("/recipes", loginCheck(), (req, res, next) => {
 router.get("/environment", loginCheck(), (req, res, next) => {
   let today = new Date();
   let currentDay = today.getDate();
-  console.log(currentDay);
   let user = req.user;
   let displayDate = currentDay - user.created_at.getDate() + 1;
 
