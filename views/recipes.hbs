@@ -1,48 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Recipes</title>
+  <title>recipes</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="/stylesheets/style.css" />
 </head>
+
 <body>
-    <div class="recipeContainer" </div>
-    {{#with recipes}}
-      <img id="recipeImage" src={{image}} alt="">
-      
-      <div id="recipeHeading">
-        <div id="recipeHeadingLeft">
-          <h1>{{title}}</h1>
+  <div class="recipeBody">
+    <a class="backLink" href="/dashboard">dashboard</a>
+    <div style="padding: 3% 20% 3% 20%;">
+      <div class="recipeContainer">
+        {{#with recipes}}
+        <img id="recipeImage" src={{image}} alt="">
+
+        <div id="recipeHeading">
+          <div id="recipeHeadingLeft">
+            <h1>{{title}}</h1>
+          </div>
+          <div id="recipeHeadingRight">
+            <p><strong>Prep Time</strong> </br> {{prep_time}} mins </p>
+            <p><strong>Cook Time</strong> </br> {{cook_time}} mins</p>
+            <p><strong>Total Time</strong> </br> {{total_time}} mins</p>
+          </div>
         </div>
-        <div id="recipeHeadingRight">
-          <p><strong>Prep Time:</strong> </br> {{prep_time}} mins </p>
-          <p><strong>Cook Time:</strong> </br>  {{cook_time}} mins</p>
+        <hr>
+        <h3 id="recipeDescription">{{description}}</h3>
+        <div id="cookingTime">
+          {{!-- <span>Total time: {{} minutes</span> --}}
         </div>
+        <h3 class="recipeDescription">Ingredients:</h3>
+        <ul id="recipeIngredients">
+          {{#each ingredients}}
+          <li>{{this}}</li>
+          {{/each}}
+        </ul>
+        <hr>
+        <h3 class="recipeDescription">Instructions:</h3>
+        <ol id="recipeInstructions">
+          {{#each instructions}}
+          <li>{{this}}</li>
+          {{/each}}
+        </ol>
+        <iframe id="recipeUrl" width="560" height="315" src="https://www.youtube.com/embed/{{url}}" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        {{/with}}
       </div>
-      <hr>
-      <p id="recipeDescription">{{description}}</p>
-      <div id="cookingTime">
-      {{!-- <span>Total time: {{} minutes</span> --}}
-      </div>
-      <ul id="recipeIngredients">
-        {{#each ingredients}}
-        <li>{{this}}</li>
-        {{/each}}
-      </ul>
-      <hr>
-      <ol id="recipeInstructions">
-        {{#each instructions}}
-        <li>{{this}}</li>
-        {{/each}}
-      </ol>
-      <iframe id="recipeUrl" width="560" height="315" src="https://www.youtube.com/embed/{{url}}" frameborder="0"
-    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    {{/with}}
-</div>
+    </div>
+  </div>
+
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -56,4 +67,5 @@
   <script src="/javascripts/script.js"></script>
 
 </body>
+
 </html>
