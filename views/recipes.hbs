@@ -10,16 +10,22 @@
   <link rel="stylesheet" href="/stylesheets/style.css" />
 </head>
 <body>
-  <div class="recipeBody">
-    <div id="recipeContainer" class="container">
-  
+    <div class="recipeContainer" </div>
     {{#with recipes}}
       <img id="recipeImage" src={{image}} alt="">
-      <h1 id="recipeHeader">{{title}}</h1>
+      
+      <div id="recipeHeading">
+        <div id="recipeHeadingLeft">
+          <h1>{{title}}</h1>
+        </div>
+        <div id="recipeHeadingRight">
+          <p><strong>Prep Time:</strong> </br> {{prep_time}} mins </p>
+          <p><strong>Cook Time:</strong> </br>  {{cook_time}} mins</p>
+        </div>
+      </div>
+      <hr>
       <p id="recipeDescription">{{description}}</p>
       <div id="cookingTime">
-      <span>Preperation Time: {{prep_time}} minutes</span>
-      <span>Cooking Time: {{cook_time}} minutes</span>
       {{!-- <span>Total time: {{} minutes</span> --}}
       </div>
       <ul id="recipeIngredients">
@@ -27,6 +33,7 @@
         <li>{{this}}</li>
         {{/each}}
       </ul>
+      <hr>
       <ol id="recipeInstructions">
         {{#each instructions}}
         <li>{{this}}</li>
@@ -35,7 +42,6 @@
       <iframe id="recipeUrl" width="560" height="315" src="https://www.youtube.com/embed/{{url}}" frameborder="0"
     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     {{/with}}
-  </div>
 </div>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
