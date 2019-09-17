@@ -39,7 +39,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 70vh;
+  height: 60vh;
 }
 
 .small-container {
@@ -71,8 +71,41 @@ body {
 
 .btn {
   font-weight: bold;
+  width: 10vw;
+  margin: 20px;
 }
 
 .btn:hover {
   background-color: rgb(173, 219, 113);
+}
+
+.buttons {
+  float: right;
+}
+
+.buttons a {
+  text-decoration: none;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  padding: 10px;
+  background-color: rgba(128, 128, 128, 0.609);
+  font-size: 20px;
+}
+
+.buttons a:hover {
+  background-color: rgba(173, 219, 113, 0.6);
+  color: black;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  color: white;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
 }
