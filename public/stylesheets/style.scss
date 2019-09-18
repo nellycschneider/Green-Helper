@@ -166,15 +166,39 @@ hr {
   font-weight: bolder;
 }
 
-.environmentContainer h2 {
-  font-size: 1.3rem;
-  align-self: center;
-  justify-content: center;
+.envSources {
+  padding-top: 95%;
 }
 
-#envSource {
-  font-size: 0.7rem;
-  position: absolute;
-  bottom: 0;
-  left: 0;
+/* ########################################## - NAVBAR STYLE - ########################################## */
+
+.buttons {
+  float: right;
+}
+
+.buttons a {
+  text-decoration: none;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  padding: 10px;
+  background-color: rgba(128, 128, 128, 0.609);
+  font-size: 20px;
+}
+
+.buttons a:hover {
+  background-color: rgba(173, 219, 113, 0.6);
+  color: black;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  color: white;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
 }
