@@ -1,9 +1,8 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap");
 body {
   padding: 0;
   margin: 0;
-  font-family: ‘Raleway’, sans-serif; }
+  font-family: "Raleway", sans-serif; }
 
 /* ########################################## - RECIPES STYLE - ########################################## */
 .recipeBody {
@@ -111,6 +110,7 @@ hr {
 /* ########################################## - ENVIRONMENT STYLE - ########################################## */
 .environmentBody {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background: url("https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/6/1/2/6/2366216-1-eng-GB/Danish-pig-farmers-start-testing-their-own-herds-as-MRSA-risk-grows.jpg") no-repeat center center fixed;
@@ -125,6 +125,8 @@ hr {
   display: flex;
   flex-direction: column;
   text-align: center;
+  justify-content: center;
+  align-items: center;
   padding: 2% 4% 2% 4%;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3), 0 1px 4px rgba(0, 0, 0, 0.2);
   width: 50vw;
@@ -133,39 +135,45 @@ hr {
   background-color: rgba(255, 255, 255, 0.9);
   position: relative; }
 
+.envHeader {
+  position: absolute;
+  top: 5%; }
+
 .envHeader h1 {
   font-size: 2.5rem;
   text-align: center;
   font-weight: bolder; }
 
+.envFacts {
+  text-align: center; }
+
+.envFacts h2 {
+  font-size: 1.9rem; }
+
 .envSources {
-  padding-top: 95%; }
+  position: absolute;
+  bottom: 5%;
+  text-align: center;
+  font-size: 0.8rem; }
 
 /* ########################################## - NAVBAR STYLE - ########################################## */
-.buttons {
-  float: right; }
-
-.buttons a {
-  text-decoration: none;
-  color: white;
-  border-radius: 6px;
-  border: none;
-  padding: 10px;
-  background-color: rgba(128, 128, 128, 0.609);
-  font-size: 20px; }
-
-.buttons a:hover {
-  background-color: rgba(173, 219, 113, 0.6);
-  color: black; }
-
-.nav {
+.inner {
   display: flex;
-  justify-content: space-between;
   padding: 20px;
-  color: white; }
+  position: fixed;
+  top: 0;
+  width: 100vw; }
 
-.nav a {
-  text-decoration: none;
-  color: white; }
+#navLogo {
+  align-self: flex-start;
+  color: white;
+  font-size: 1.8rem;
+  text-decoration: none; }
+
+#navBack {
+  align-self: flex-end;
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */
