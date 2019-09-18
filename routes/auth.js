@@ -8,7 +8,7 @@ const bcrypt = require("bcrypt");
 const bcryptSalt = 10;
 
 router.get("/login", (req, res, next) => {
-  res.render("auth/login", { message: req.flash("error") });
+  res.render("auth/login", { message: req.flash("error"), layout: false });
 });
 
 router.post(
@@ -22,20 +22,26 @@ router.post(
 );
 
 router.get("/signup", (req, res, next) => {
-  res.render("auth/signup");
+  res.render("auth/signup", { layout: false });
 });
 
 router.post("/signup", (req, res, next) => {
   const username = req.body.username;
   const password = req.body.password;
   if (username === "" || password === "") {
-    res.render("auth/signup", { message: "Indicate username and password" });
+    res.render("auth/signup", {
+      message: "Indicate username and password",
+      layout: false
+    });
     return;
   }
 
   User.findOne({ username }, "username", (err, user) => {
     if (user !== null) {
-      res.render("auth/signup", { message: "The username already exists" });
+      res.render("auth/signup", {
+        message: "The username already exists",
+        layout: false
+      });
       return;
     }
 
@@ -53,7 +59,10 @@ router.post("/signup", (req, res, next) => {
         res.redirect("/dashboard");
       })
       .catch(err => {
-        res.render("auth/signup", { message: "Something went wrong" });
+        res.render("auth/signup", {
+          message: "Something went wrong",
+          layout: false
+        });
       });
   });
 });

@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Righteous&display=swap");
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  background-color: rgb(240, 250, 211);
+  // background-image: url("https://images.unsplash.com/photo-1506808547685-e2ba962ded60?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1275&q=80");
+  // -webkit-background-size: cover;
+  // -moz-background-size: cover;
+  // -o-background-size: cover;
+  // background-size: cover;
+  // width: 100vw;
+}
+
+.center-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 100vw;
+}
+
+.btn:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid white;
+  background-color: rgb(123, 148, 74);
+}
+
+.btn {
+  padding: 15px;
+  width: 15vw;
+  margin: 0;
+  border-radius: 6px;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(123, 148, 74);
+}
+
+.form-container {
+  font-size: 25px;
+  background-color: rgba(178, 212, 150, 0.8);
+  border-radius: 6px;
+  text-align: center;
+  width: 30vw;
+  height: 50vh;
+  color: rgb(34, 31, 31);
+  padding: 100px;
+}
+
+h2 {
+  font-size: 60px;
+  font-family: "Righteous", sans-serif;
+  color: rgb(61, 92, 25);
+}
+
+input {
+  padding: 10px 15px;
+  border-radius: 6px;
+  width: 15vw;
+  font-size: 20px;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  color: rgb(84, 45, 129);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.error-message {
+  color: rgb(184, 44, 44);
+  font-weight: bold;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  float: left;
+  padding-left: 10px;
+  width: 100vw;
+}
+
+.nav a {
+  text-decoration: none;
+  color: rgb(141, 187, 97);
+  font-size: 30px;
+}
+
+.nav h3 {
+  padding: 0 5px;
+  font-family: "Raleway", sans-serif;
+}

@@ -108,10 +108,6 @@ body {
   border-bottom-color: #fff; }
 
 .middle-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   background-color: rgba(178, 212, 150, 0.8);
   margin: 30px;
   width: 50vw;
@@ -120,9 +116,11 @@ body {
   overflow-y: scroll; }
 
 .resources {
-  width: 80%; }
+  width: 80%;
+  padding-left: 200px; }
 
 .middle-container h3 {
+  padding: 40px 0;
   font-weight: bold;
   font-size: 40px;
   color: #fff;
