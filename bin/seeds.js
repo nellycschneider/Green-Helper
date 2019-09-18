@@ -402,89 +402,90 @@ const recipes = [
       "To grill your sandwiches, put 1 teaspoon of vegan butter in a cast iron grill pan set to medium-high heat. Place 2 sandwiches onto the grill pan and weigh down the top. Grill for 3 to 4 minutes on each side until the tops have golden grill marks and the cheese is melted. Add more butter when flipping the sandwiches and turn down the heat slightly if needed. Repeat with the last batch of sandwiches. Slice sandwiches in half and serve immediately!"
     ],
     url: "xmoHlOM8"
+  },
+  {
+    day: 9,
+    title: "Cheeseburger Bites", // https://www.hotforfoodblog.com/recipes/2018/9/13/vegan-cheeseburger-bites/
+    description:
+      "Here's a fun way to transform a vegan cheeseburger into a party-perfect appetizer!",
+    image:
+      "https://www.hotforfoodblog.com/wp-content/uploads/2019/05/vegancheeseburgerbites_hotforfood_filtered1-1024x683.jpg",
+    prep_time: 20,
+    cook_time: 25,
+    total_time: 45,
+    ingredients: [
+      "3 cups all-purpose flour",
+      "1 tsp sea salt",
+      "1 tbsp vegetable oil",
+      "1  cups warm water",
+      "1 tbsp cornstarch (to prevent sticking)",
+      "1 cups vegan mayonnaise",
+      "2 tbsp apple cider vinegar",
+      "2 tbsp sweet green relish",
+      "2 tbsp ketchup",
+      "1 tbsp dehydrated minced onion",
+      "1 tsp garlic powder",
+      "1/2 tsp ground black pepper",
+      "1 tbsp hot sauce (optional)",
+      "1 cups finely diced onion (about 1 onion)",
+      "1 ActiFry spoon vegetable oil",
+      "2 cups veggie ground round, thawed in the fridge overnight if previously frozen",
+      "1 tsp sea salt",
+      "1 tsp onion powder",
+      "1 tsp chili powder",
+      "1 tbsp vegan Worcestershire",
+      "1/2 cups finely diced pickle",
+      "1 cups vegan cheddar style shreds"
+    ],
+    instructions: [
+      "Prepare the dough by combining flour and sea salt in a mixing bowl. Create a well in the middle of the flour and add water and oil and stir to combine. Once the mixture is just combined but still in pieces you can gather the dough with your hands and knead to combine it into a ball. Then turn out onto a lightly floured surface and knead it about 10 to 15 times until it’s a smooth ball of dough. Wrap it in a tea towel or plastic wrap and let it rest for 20 minutes in the fridge.",
+      "Meanwhile combine the ingredients for the special sauce in a bowl or jar and refrigerate before serving.",
+      "Add the onions and vegetable oil to the basin of the ActiFry and set timer for 10 minutes. After 6 minutes add the veggie ground round, sea salt, spices, and Worcestershire and continue cooking another 4 minutes.",
+      "Empty this mixture into a large mixing bowl and combine with pickles and cheese.",
+      "Wipe out the basin of the ActiFry and place it back in the base with the snack tray.",
+      "Have a large cutting board or baking sheet dusted with cornstarch prepared. Portion the dough in half. Roll out one half onto a lightly floured surface to 1/8-inch thick.",
+      "Cut out 4 1/4 to 4 1/2-inch wide circles with a cookie cutter. Remove excess dough and press together to form a ball of dough. Place cut out rounds onto your sheet or cutting board dusted with cornstarch. Continue to roll out the dough and cut out circles until the dough is used up.",
+      "Scoop a heaping tablespoon of filling on top of each cut out circle. Gather and pinch all the edges of the dough together around the filling creating a bundle of dough at the top that you can pinch and twist to seal. Gently place the gathered side down onto the surface dusted with cornstarch. You should have nice rounded mounds but they don’t have to be perfect. Just ensure there’s no gaps or holes in the dough. At this point you could freeze the cheeseburger bites between layers of parchment paper. Cook from frozen as instructed below.",
+      "Lightly oil the snack tray of the Actifry and place 5 to 6 bites slightly spaced apart on the tray. Brush or spray the tops with oil.",
+      "Set the timer of the ActiFry for 15 minutes and cook until evenly golden brown on top. Continue cooking in batches. If cooking from frozen it may take up to 20 minutes per batch. Serve immediately with special sauce."
+    ],
+    url: "mllIoJJjt0s"
+  },
+  {
+    day: 10,
+    title: "BOSHballs", // https://www.bosh.tv/recipes/pasta-with-bosh-balls-veganuary-week-3
+    description:
+      "These are our delicious homemade BOSH! balls! Think of them as a healthy meat ball!",
+    image:
+      "https://d12ph5aixxtnio.cloudfront.net/uploads/images/recipes/_full/5894/kale-balls.jpg",
+    prep_time: 20,
+    cook_time: 25,
+    total_time: 45,
+    ingredients: [
+      "1 tbsp of olive oil + 1 tbsp of olive oil plus more for frying",
+      "1 small onion",
+      "1 large clove of garlic",
+      "10g fresh basil",
+      "10g fresh parsley",
+      "400g kale",
+      "1 tsp of fennel seeds",
+      "Pinch of red chilli flakes",
+      "zest and juice of half a lemon",
+      "1-2 slices of stale bread",
+      "4 tbsp flour",
+      "1 tbsp of olive oil",
+      "1 onion",
+      "2 garlic cloves",
+      "Pinch of chilli flakes",
+      "1 can of plum tomatoes",
+      "100g kale",
+      "150g whole wheat spaghetti",
+      "10g parsley",
+      "10g magic dust (nutritional yeast)"
+    ],
+    instructions: [],
+    url: "mllIoJJjt0s"
   }
-{
-  day: 9,
-  title: "Cheeseburger Bites", // https://www.hotforfoodblog.com/recipes/2018/9/13/vegan-cheeseburger-bites/
-  description:
-    "Here's a fun way to transform a vegan cheeseburger into a party-perfect appetizer!",
-  image: "https://www.hotforfoodblog.com/wp-content/uploads/2019/05/vegancheeseburgerbites_hotforfood_filtered1-1024x683.jpg",
-  prep_time: 20,
-  cook_time: 25,
-  total_time: 45,
-  ingredients: [
-    "3 cups all-purpose flour",
-    "1 tsp sea salt",
-    "1 tbsp vegetable oil",
-    "1  cups warm water",
-    "1 tbsp cornstarch (to prevent sticking)",
-    "1 cups vegan mayonnaise",
-    "2 tbsp apple cider vinegar",
-    "2 tbsp sweet green relish",
-    "2 tbsp ketchup",
-    "1 tbsp dehydrated minced onion",
-    "1 tsp garlic powder",
-    "1/2 tsp ground black pepper",
-    "1 tbsp hot sauce (optional)",
-    "1 cups finely diced onion (about 1 onion)",
-    "1 ActiFry spoon vegetable oil",
-    "2 cups veggie ground round, thawed in the fridge overnight if previously frozen",
-    "1 tsp sea salt",
-    "1 tsp onion powder",
-    "1 tsp chili powder",
-    "1 tbsp vegan Worcestershire",
-    "1/2 cups finely diced pickle",
-    "1 cups vegan cheddar style shreds"
-  ],
-  instructions: [
-    "Prepare the dough by combining flour and sea salt in a mixing bowl. Create a well in the middle of the flour and add water and oil and stir to combine. Once the mixture is just combined but still in pieces you can gather the dough with your hands and knead to combine it into a ball. Then turn out onto a lightly floured surface and knead it about 10 to 15 times until it’s a smooth ball of dough. Wrap it in a tea towel or plastic wrap and let it rest for 20 minutes in the fridge.",
-    "Meanwhile combine the ingredients for the special sauce in a bowl or jar and refrigerate before serving.",
-    "Add the onions and vegetable oil to the basin of the ActiFry and set timer for 10 minutes. After 6 minutes add the veggie ground round, sea salt, spices, and Worcestershire and continue cooking another 4 minutes.",
-    "Empty this mixture into a large mixing bowl and combine with pickles and cheese.",
-    "Wipe out the basin of the ActiFry and place it back in the base with the snack tray.",
-    "Have a large cutting board or baking sheet dusted with cornstarch prepared. Portion the dough in half. Roll out one half onto a lightly floured surface to 1/8-inch thick.",
-    "Cut out 4 1/4 to 4 1/2-inch wide circles with a cookie cutter. Remove excess dough and press together to form a ball of dough. Place cut out rounds onto your sheet or cutting board dusted with cornstarch. Continue to roll out the dough and cut out circles until the dough is used up.",
-    "Scoop a heaping tablespoon of filling on top of each cut out circle. Gather and pinch all the edges of the dough together around the filling creating a bundle of dough at the top that you can pinch and twist to seal. Gently place the gathered side down onto the surface dusted with cornstarch. You should have nice rounded mounds but they don’t have to be perfect. Just ensure there’s no gaps or holes in the dough. At this point you could freeze the cheeseburger bites between layers of parchment paper. Cook from frozen as instructed below.",
-    "Lightly oil the snack tray of the Actifry and place 5 to 6 bites slightly spaced apart on the tray. Brush or spray the tops with oil.",
-    "Set the timer of the ActiFry for 15 minutes and cook until evenly golden brown on top. Continue cooking in batches. If cooking from frozen it may take up to 20 minutes per batch. Serve immediately with special sauce."
-  ],
-  url: "mllIoJJjt0s"
-}
-{
-  day: 10,
-  title: "BOSHballs", // https://www.bosh.tv/recipes/pasta-with-bosh-balls-veganuary-week-3
-  description: "These are our delicious homemade BOSH! balls! Think of them as a healthy meat ball!",
-  image: "https://d12ph5aixxtnio.cloudfront.net/uploads/images/recipes/_full/5894/kale-balls.jpg",
-  prep_time: 20,
-  cook_time: 25,
-  total_time: 45,
-  ingredients: [
-    "1 tbsp of olive oil + 1 tbsp of olive oil plus more for frying",
-    "1 small onion",
-    "1 large clove of garlic",
-    "10g fresh basil",
-    "10g fresh parsley",
-    "400g kale",
-    "1 tsp of fennel seeds",
-    "Pinch of red chilli flakes",
-    "zest and juice of half a lemon",
-    "1-2 slices of stale bread",
-    "4 tbsp flour",
-    "1 tbsp of olive oil",
-    "1 onion",
-    "2 garlic cloves",
-    "Pinch of chilli flakes",
-    "1 can of plum tomatoes",
-    "100g kale",
-    "150g whole wheat spaghetti",
-    "10g parsley",
-    "10g magic dust (nutritional yeast)"
-  ],
-  instructions: [
-    
-  ],
-  url: "mllIoJJjt0s"
-}
 ];
 
 Recipes.insertMany(recipes).then(data => {
