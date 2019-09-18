@@ -58,7 +58,7 @@ body {
 .btn-secondary:hover,
 .btn-secondary:focus {
   color: rgb(51, 51, 51);
-  text-shadow: none; /* Prevent inheritance from `body` */
+  text-shadow: none;
   background-color: rgb(255, 255, 255);
   border: 0.05rem solid #fff;
 }
@@ -126,10 +126,10 @@ body {
 }
 
 .middle-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
   background-color: rgba(178, 212, 150, 0.8);
   margin: 30px;
   width: 50vw;
@@ -142,10 +142,11 @@ body {
 
 .resources {
   width: 80%;
-  // text-align: center;
+  padding-left: 200px;
 }
 
 .middle-container h3 {
+  padding: 40px 0;
   font-weight: bold;
   font-size: 40px;
   color: #fff;

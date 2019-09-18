@@ -1,5 +1,57 @@
-<h2>Signup</h2>
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/stylesheets/signup-login.css">
+  <title>Log In</title>
+</head>
+
+<body>
+  <div class="nav">
+    <div class="logo">
+      <h3><a href="/">Green Helper 🌱</a></h3>
+    </div>
+  </div>
+
+  <div class="center-div">
+    <form action="/auth/signup" method="POST" class="form-container">
+      <h2>Sign Up</h2>
+
+      <label for="username">Username</label> <br>
+      <input id="username" type="text" name="username">
+
+      <br><br>
+
+      <label for="password">Password</label> <br>
+      <input id="password" type="password" name="password">
+
+      <br>
+      {{#if message }}
+      <div class="error-message">{{ message }}</div>
+      {{/if}}
+
+      <br>
+
+      <button class="btn">Create account</button>
+
+      <p class="account-message">
+        Do you already have an account?
+        <a href="/auth/login">Login</a>
+      </p>
+      <br>
+      <br>
+    </form>
+  </div>
+
+</body>
+
+</html>
+
+
+{{!-- 
 <form action="/auth/signup" method="POST" id="form-container">
   <label for="username">Username</label>
   <input id="username" type="text" name="username" placeholder="JonSnow">
@@ -10,7 +62,7 @@
   <input id="password" type="password" name="password" placeholder="Your password">
   <br>
   {{#if message }}
-    <div class="error-message">{{ message }}</div>
+  <div class="error-message">{{ message }}</div>
   {{/if}}
 
   <br><br>
@@ -21,4 +73,4 @@
     Do you already have an account?
     <a href="/auth/login">Login</a>
   </p>
-</form>
+</form> --}}

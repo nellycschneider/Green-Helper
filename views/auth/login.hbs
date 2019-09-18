@@ -1,25 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
 
-<h2>Login</h2>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/stylesheets/signup-login.css">
+  <title>Log In</title>
+</head>
 
-<form action="/auth/login" method="POST" id="form-container">
-  <label for="username">Username</label>
-  <input id="username" type="text" name="username" placeholder="JonSnow">
+<body>
 
-  <br><br>
+  <div class="nav">
+    <div class="logo">
+      <h3><a href="/">Green Helper 🌱</a></h3>
+    </div>
+  </div>
 
-  <label for="password">Password</label>
-  <input id="password" type="password" name="password" placeholder="Your password">
-  <br>
-  {{#if message }}
-    <div class="error-message">{{ message }}</div>
-  {{/if}}
+  <div class="center-div">
+    <form action="/auth/login" method="POST" class="form-container">
+      <h2>Login</h2>
+      <label for="username">Username</label> <br>
+      <input id="username" type="text" name="username">
 
-  <br><br>
+      <br><br>
 
-  <button>Login</button>
+      <label for="password">Password</label> <br>
+      <input id="password" type="password" name="password">
 
-  <p class="account-message">
-    Don't have an account yet?
-    <a href="/auth/signup">Signup</a>
-  </p>
-</form>
+      <br>
+      {{#if message }}
+      <div class="error-message">{{ message }}</div>
+      {{/if}}
+
+      <br>
+
+      <button class="btn">Login</button>
+
+      <p class="account-message">
+        Don't have an account yet?
+        <a href="/auth/signup">Signup</a>
+      </p>
+    </form>
+  </div>
+
+</body>
+
+</html>

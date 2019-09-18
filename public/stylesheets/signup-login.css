@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Righteous&display=swap");
+html,
+body {
+  height: 100%; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  background-color: #f0fad3; }
+
+.center-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 100vw; }
+
+.btn:hover {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid white;
+  background-color: #7b944a; }
+
+.btn {
+  padding: 15px;
+  width: 15vw;
+  margin: 0;
+  border-radius: 6px;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #7b944a; }
+
+.form-container {
+  font-size: 25px;
+  background-color: rgba(178, 212, 150, 0.8);
+  border-radius: 6px;
+  text-align: center;
+  width: 30vw;
+  height: 50vh;
+  color: #221f1f;
+  padding: 100px; }
+
+h2 {
+  font-size: 60px;
+  font-family: "Righteous", sans-serif;
+  color: #3d5c19; }
+
+input {
+  padding: 10px 15px;
+  border-radius: 6px;
+  width: 15vw;
+  font-size: 20px;
+  margin: 0;
+  font-family: "Raleway", sans-serif; }
+
+a {
+  color: #542d81;
+  font-weight: bold;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+.error-message {
+  color: #b82c2c;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 0;
+  margin: 0; }
+
+.nav {
+  float: left;
+  padding-left: 10px;
+  width: 100vw; }
+
+.nav a {
+  text-decoration: none;
+  color: #8dbb61;
+  font-size: 30px; }
+
+.nav h3 {
+  padding: 0 5px;
+  font-family: "Raleway", sans-serif; }
+
+/*# sourceMappingURL=signup-login.css.map */
