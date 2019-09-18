@@ -37,7 +37,7 @@ const daysOver = (req, res) => {
   let user = req.user;
   let displayDate = currentDay - user.created_at.getDate() + 1;
 
-  if (displayDate === 15) {
+  if (displayDate === 2) {
     res.render("resources", { layout: false });
   } else {
     return;
