@@ -7,7 +7,7 @@ body {
   width: 100vh;
   width: 100vw;
   font-family: "Raleway", sans-serif;
-  background-image: url("https://images.unsplash.com/photo-1463164490908-f45da921edde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2251&q=80");
+  background-image: url("https://images.unsplash.com/photo-1517520654015-b59d3b6ca607?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -18,11 +18,13 @@ body {
   text-align: center;
   margin: 0;
   padding-top: 120px;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .headings h1 {
   font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px #6ab13b;
   font-size: 100px;
 }
 
@@ -47,7 +49,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(122, 114, 114, 0.603);
+  background-color: rgba(178, 212, 150, 0.603);
   margin: 30px;
   width: 20vw;
   height: 30vh;
@@ -108,4 +110,38 @@ body {
 .nav a {
   text-decoration: none;
   color: white;
+}
+
+.nav-link {
+  padding: 0.25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: transparent;
+  border-bottom: 0.25rem solid transparent;
+}
+
+.nav-link:hover .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, 0.25);
+}
+
+.nav-link {
+  margin-left: 1rem;
+}
+
+.active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+.middle-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(178, 212, 150, 0.603);
+  margin: 30px;
+  width: 50vw;
+  height: 40vh;
+  border-radius: 8px;
+  overflow-y: scroll;
 }

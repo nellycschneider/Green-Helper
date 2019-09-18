@@ -31,7 +31,22 @@ const loginCheck = () => {
   };
 };
 
+const daysOver = (req, res) => {
+  let today = new Date();
+  let currentDay = today.getDate();
+  let user = req.user;
+  let displayDate = currentDay - user.created_at.getDate() + 1;
+
+  if (displayDate === 15) {
+    res.render("resources", { layout: false });
+  } else {
+    return;
+  }
+};
+
 router.get("/dashboard", loginCheck(), (req, res) => {
+  daysOver(req, res);
+
   var myAnimals;
   // var environment;
 

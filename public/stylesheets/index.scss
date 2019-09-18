@@ -98,7 +98,9 @@ h1 {
 }
 
 .content-container p {
-  font-size: 35px;
+  text-align: center;
+  font-size: 25px;
+  width: 55%;
 }
 
 /*
@@ -214,4 +216,10 @@ a:hover {
 .navbar a {
   text-decoration: none;
   color: white;
+}
+
+.description {
+  width: 100vw;
+  height: 500px;
+  background-color: white;
 }
