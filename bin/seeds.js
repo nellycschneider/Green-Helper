@@ -402,89 +402,270 @@ const recipes = [
       "To grill your sandwiches, put 1 teaspoon of vegan butter in a cast iron grill pan set to medium-high heat. Place 2 sandwiches onto the grill pan and weigh down the top. Grill for 3 to 4 minutes on each side until the tops have golden grill marks and the cheese is melted. Add more butter when flipping the sandwiches and turn down the heat slightly if needed. Repeat with the last batch of sandwiches. Slice sandwiches in half and serve immediately!"
     ],
     url: "xmoHlOM8"
+  },
+  {
+    day: 9,
+    title: "Cheeseburger Bites", // https://www.hotforfoodblog.com/recipes/2018/9/13/vegan-cheeseburger-bites/
+    description:
+      "Here's a fun way to transform a vegan cheeseburger into a party-perfect appetizer!",
+    image:
+      "https://www.hotforfoodblog.com/wp-content/uploads/2019/05/vegancheeseburgerbites_hotforfood_filtered1-1024x683.jpg",
+    prep_time: 20,
+    cook_time: 25,
+    total_time: 45,
+    ingredients: [
+      "3 cups all-purpose flour",
+      "1 tsp sea salt",
+      "1 tbsp vegetable oil",
+      "1  cups warm water",
+      "1 tbsp cornstarch (to prevent sticking)",
+      "1 cups vegan mayonnaise",
+      "2 tbsp apple cider vinegar",
+      "2 tbsp sweet green relish",
+      "2 tbsp ketchup",
+      "1 tbsp dehydrated minced onion",
+      "1 tsp garlic powder",
+      "1/2 tsp ground black pepper",
+      "1 tbsp hot sauce (optional)",
+      "1 cups finely diced onion (about 1 onion)",
+      "1 ActiFry spoon vegetable oil",
+      "2 cups veggie ground round, thawed in the fridge overnight if previously frozen",
+      "1 tsp sea salt",
+      "1 tsp onion powder",
+      "1 tsp chili powder",
+      "1 tbsp vegan Worcestershire",
+      "1/2 cups finely diced pickle",
+      "1 cups vegan cheddar style shreds"
+    ],
+    instructions: [
+      "Prepare the dough by combining flour and sea salt in a mixing bowl. Create a well in the middle of the flour and add water and oil and stir to combine. Once the mixture is just combined but still in pieces you can gather the dough with your hands and knead to combine it into a ball. Then turn out onto a lightly floured surface and knead it about 10 to 15 times until it’s a smooth ball of dough. Wrap it in a tea towel or plastic wrap and let it rest for 20 minutes in the fridge.",
+      "Meanwhile combine the ingredients for the special sauce in a bowl or jar and refrigerate before serving.",
+      "Add the onions and vegetable oil to the basin of the ActiFry and set timer for 10 minutes. After 6 minutes add the veggie ground round, sea salt, spices, and Worcestershire and continue cooking another 4 minutes.",
+      "Empty this mixture into a large mixing bowl and combine with pickles and cheese.",
+      "Wipe out the basin of the ActiFry and place it back in the base with the snack tray.",
+      "Have a large cutting board or baking sheet dusted with cornstarch prepared. Portion the dough in half. Roll out one half onto a lightly floured surface to 1/8-inch thick.",
+      "Cut out 4 1/4 to 4 1/2-inch wide circles with a cookie cutter. Remove excess dough and press together to form a ball of dough. Place cut out rounds onto your sheet or cutting board dusted with cornstarch. Continue to roll out the dough and cut out circles until the dough is used up.",
+      "Scoop a heaping tablespoon of filling on top of each cut out circle. Gather and pinch all the edges of the dough together around the filling creating a bundle of dough at the top that you can pinch and twist to seal. Gently place the gathered side down onto the surface dusted with cornstarch. You should have nice rounded mounds but they don’t have to be perfect. Just ensure there’s no gaps or holes in the dough. At this point you could freeze the cheeseburger bites between layers of parchment paper. Cook from frozen as instructed below.",
+      "Lightly oil the snack tray of the Actifry and place 5 to 6 bites slightly spaced apart on the tray. Brush or spray the tops with oil.",
+      "Set the timer of the ActiFry for 15 minutes and cook until evenly golden brown on top. Continue cooking in batches. If cooking from frozen it may take up to 20 minutes per batch. Serve immediately with special sauce."
+    ],
+    url: "mllIoJJjt0s"
+  },
+  {
+    day: 10,
+    title: "BOSHballs", // https://www.bosh.tv/recipes/pasta-with-bosh-balls-veganuary-week-3
+    description:
+      "These are our delicious homemade BOSH! balls! Think of them as a healthy meat ball!",
+    image:
+      "https://d12ph5aixxtnio.cloudfront.net/uploads/images/recipes/_full/5894/kale-balls.jpg",
+    prep_time: 15,
+    cook_time: 25,
+    total_time: 45,
+    ingredients: [
+      "1 tbsp of olive oil + 1 tbsp of olive oil plus more for frying",
+      "1 small onion",
+      "1 large clove of garlic",
+      "10g fresh basil",
+      "10g fresh parsley",
+      "400g kale",
+      "1 tsp of fennel seeds",
+      "Pinch of red chilli flakes",
+      "zest and juice of half a lemon",
+      "1-2 slices of stale bread",
+      "4 tbsp flour",
+      "1 tbsp of olive oil",
+      "1 onion",
+      "2 garlic cloves",
+      "Pinch of chilli flakes",
+      "1 can of plum tomatoes",
+      "100g kale",
+      "150g whole wheat spaghetti",
+      "10g parsley",
+      "10g magic dust (nutritional yeast)"
+    ],
+    instructions: [
+      "You will need... Large Frying Pan | Large Saucepan | Chopping Board | Knife",
+      "Peel and finely dice the onion | Peel and grate the garlic | Roughly chop the basil and parsley | Destalk and shred the kale",
+      "Add one tablespoon of oil to a large frying pan and place over a medium heat | Add the kale and saute until tender, approximately 5 minutes | Remove from the pan and allow to cool completely",
+      "Add the remaining tbsp of olive oil to a large frying pan and place over a medium heat | Add the onion, a pinch of salt and sweat until the onions are translucent (approx 5-6 minutes) | Add the garlic, basil, parsley, fennel seeds, chilli flakes and cook for a further 30 seconds | Transfer to a bowl, allow to cool completely, mix with the chard | Grate over the stale bread, add the zest of the lemon, cut in half and squeeze in the juice | Mix all the ingredients together well with a spoon or spatula",
+      "Roll the mixture into 12 small balls (slightly smaller than a ping pong ball) and roll them in plain flour | Warm olive oil in a frying pan, add the balls, 4 at a time and gently fry until golden on all sides | Set aside to cool",
+      "While the meatballs are cooling, make the pasta and sauce",
+      "Place a large pot of water on to boil, season well with salt | Peel and finely dice the onion, thinly slice the kale | Add the oil to a frying pan and place over a medium heat | Add the onion with a pinch of salt and cook until translucent (approx 5-6 minutes) | Add the garlic and red chilli flakes and cook for a further minute | Add the plum tomatoes and bring up to a boil, stirring regularly | Turn the heat down and cook for approximately 10 minutes | Remove half of the sauce from the pan, place in a sealed container and store in the fridge to be served again later in the week",
+      "Add 75g of the pasta to the boiling water and cook for approximately 8 minutes until al dente | Drain the pasta, reserving a cup of the starchy cooking water to loosen the sauce | Add the pasta to the pan with the sauce and adjust the consistency with the reserved water as needed, add the half the Kale and cook for a few minutes until softened | Store the remaining kale and meatballs in a sealed container in the fridge, to be eaten later in the week",
+      "Serve the pasta immediately with a garnish of parsley and nutritional yeast"
+    ],
+    url: "9XSJi56ubdw"
+  },
+  {
+    day: 11,
+    title: "Brownie Bites", // https://www.hotforfoodblog.com/recipes/2015/10/28/easy-vegan-brownie-bites/
+    description:
+      "These super chocolatey, chewy mini brownie bites are the perfect snack to have on hand whenever cravings hit!",
+    image:
+      "https://static1.squarespace.com/static/52a0e62be4b0aa09f5b95593/52a0f48ee4b0f982fc451b89/5630dbb3e4b0efc18546bd5d/1446042559501/easy+vegan+brownie+bites+%7C+RECIPE+on+hotforfoodblog.com",
+    prep_time: 25,
+    cook_time: 15,
+    total_time: 40,
+    ingredients: [
+      "2 tbsp ground flax meal or ground chia",
+      "6 tbsp water",
+      "1 C all-purpose flour",
+      "1/3 C dutch process cocoa powder",
+      "1/2 C vegan butter",
+      "2/3 C vegan chocolate chips",
+      "3/4 C organic cane sugar",
+      "1 tsp vanilla extract",
+      "1/2 C walnuts, roughly chopped"
+    ],
+    instructions: [
+      "Preheat oven to 350°F.",
+      "Mix together flax meal and water and set aside for 10 minutes to thicken.",
+      "Meanwhile, sift together the flour and cocoa powder and stir to combine well.",
+      "Melt vegan butter in a small sauce pan over low heat. As soon as it's melted, remove from heat and stir in 1/3 cup of the vegan chocolate chips. Stir until they completely melt and you have a smooth mixture. Add organic cane sugar and vanilla extract to the butter and chocolate mixture and stir to combine.",
+      "Add this to the flour and cocoa mixture. Also add in the flax mixture, another 1/3 cup of vegan chocolate chips, and walnut pieces. Fold together until combined.",
+      "Add approximately 1 tablespoon of batter to each mini muffin cup. You'll need 2 mini muffin pans to make 24 brownie bites. There's no need to grease or oil the pans, as long as they're non-stick.",
+      "Bake for approximately 14 minutes. Bake time may vary. Allow them to cool on a wire rack.",
+      "You can also spread this brownie batter into a 9 9 square baking pan and bake for 30 minutes. I would line it with parchment paper just so it's easier to lift out and cut into squares."
+    ],
+    url: "zU0jq8WwYWU"
+  },
+  {
+    day: 12,
+    title: "Buffalo cauliflower sandwich", // https://www.hotforfoodblog.com/recipes/2014/11/1/vegan-buffalo-cauliflower-sandwich/
+    description:
+      "You're going to love this lighter twist on a buffalo chicken and ranch sandwich... drool!",
+    image:
+      "https://static1.squarespace.com/static/52a0e62be4b0aa09f5b95593/52a0f48ee4b0f982fc451b89/546a8f51e4b0eb94ca4fcb22/1416269655745/buffalo+ranch+cauliflower+sandwich+%23vegan+%7C+RECIPE+on+hotforfoodblog.com",
+    prep_time: 25,
+    cook_time: 50,
+    total_time: 75,
+    ingredients: [
+      "1 head of cauliflower",
+      "1/2 C nondairy milk",
+      "1/2 C water",
+      "3/4 C all-purpose flour (can substitute gluten free rice flour)",
+      "2 tsp garlic powder",
+      "2 tsp onion powder",
+      "1 tsp ground cumin",
+      "1 tsp ground paprika",
+      "1/4 tsp sea salt",
+      "1/4 tsp ground black pepper",
+      "1 tbsp vegan butter",
+      "1/2 C Frank's RedHot sauce",
+      "1/2 C vegan mayonnaise",
+      "1 tsp apple cider vinegar",
+      "1 tbsp finely chopped fresh dill",
+      "1 tbsp finely chopped fresh parsley",
+      "1 tbsp finely chopped chives",
+      "1/2 tsp onion powder",
+      "1/2 tsp garlic powder",
+      "sea salt & ground black pepper, to taste"
+    ],
+    instructions: [
+      "Line a baking sheet with parchment paper and preheat oven to 450°F.",
+      "Trim off any green leaves at the base of the cauliflower, but leave most of the stem in tact. Cut the head of cauliflower in half and then cut 2-inch x 1/2-inch steaks from each of the inside sides. You can use the remaining cauliflower to make buffalo wings or just use it in another recipe like my mushroom sage cauliflower risotto. Roasting it in the oven with sea salt, ground black pepper, and olive oil is delicious, too!",
+      "Mix the flour, nondairy milk, water, spices, sea salt, and ground black pepper in a mixing bowl with a whisk until well combined. Transfer this mixture to a wide shallow baking dish that will fit your cauliflower steaks. Dredge the steaks through the batter and use your hands to coat them quite well, getting in all the crevices. Place the battered cauliflower steaks onto the parchment lined baking sheet and bake for 25 minutes. Meanwhile, prepare the ranch sauce and buffalo sauce.",
+      "In a bowl, whisk all the ingredients together for the ranch. Refrigerate until you're ready to assemble the sandwiches.",
+      "Just before the cauliflower is finished baking, melt the vegan butter and whisk it into the hot sauce in a shallow dish you can dredge the cauliflower steaks in once again.",
+      "Remove the cauliflower from the oven. You may want to let them cool so you can handle them. You might need to replace your parchment paper if it's really soaked through or burned quite a bit.",
+      "Dredge the cauliflower steaks through the buffalo sauce, making sure to coat them evenly. Bake again on a parchment lined baking sheet for 25 minutes.",
+      "To assemble the sandwiches, spread ranch on both sides of a toasted kaiser, then lay down the buffalo cauliflower steak on the bottom, add red onion slices, lettuce, and thick cut tomato slices."
+    ],
+    url: "xDvSNj_FewQ"
+  },
+  {
+    day: 13,
+    title: "Caramel peanut chocolate bars", // https://www.hotforfoodblog.com/recipes/2018/10/28/vegan-caramel-peanut-chocolate-bars/
+    description:
+      "Are you ready to sink your teeth into these incredible vegan caramel peanut chocolate bars?! I’ve eaten my fair share of Snickers and trust me, these are way better!",
+    image:
+      "https://static1.squarespace.com/static/52a0e62be4b0aa09f5b95593/52a0f48ee4b0f982fc451b89/546a8f51e4b0eb94ca4fcb22/1416269655745/buffalo+ranch+cauliflower+sandwich+%23vegan+%7C+RECIPE+on+hotforfoodblog.com",
+    prep_time: 20,
+    cook_time: 15,
+    total_time: 35,
+    ingredients: [
+      "1 cups rolled oats (not quick cooking), ground in a food processor to make oat flour (equals 3/4 C oat flour)",
+      "3/4 cups all-purpose flour",
+      "1/2 tsp sea salt",
+      "1/4 cups granulated sugar",
+      "1/4 cups packed brown sugar",
+      "1/4 cups + 2 tbsp melted vegan butter",
+      "1/2 cups vegan butter",
+      "1 cups packed brown sugar",
+      "2/3 cups canned coconut cream",
+      "1/4 cups natural peanut butter",
+      "1/4 tsp sea salt",
+      "1 1/2 cups roasted and salted peanuts",
+      "2 cups dark chocolate melting wafers",
+      "Maldon sea salt flakes (optional)"
+    ],
+    instructions: [
+      "Preheat oven to 375°F.",
+      "Line a 7 x 7 or 8 x 8 baking pan with parchment paper.",
+      "In a food processor, pulse oats to flour. Then add all-purpose flour, sugars, sea salt, and melted butter and process until everything is combined evenly and the mixture is crumbly. You should be able to pinch it together and it relatively holds the shape.",
+      "Press the dough mixture into the bottom of the parchment lined baking pan to form an even layer.",
+      "Bake for 12 to 14 minutes until the edges are just golden brown. Remove the pan from the oven and cool completely in the baking pan on a wire rack.",
+      "Meanwhile, make the caramel filling by heating a medium sauce pan over medium heat with the vegan butter, brown sugar, coconut cream, peanut butter, and sea salt. Whisk together to combine everything as the mixture melts together and becomes smooth.",
+      "Once it starts bubbling steadily, lower the heat but keep it on a low bubble while you whisk constantly for about 3 to 4 minutes. It should be thicker but still run off the whisk. It will be coating and sticking to the sides of the saucepan. Do not heat it further than this. Remove it from the heat and fold in the roasted peanuts. Continue stirring to cool it down. Let it rest for 15 minutes before pouring over the mostly cooled cookie base.",
+      "Pour the caramel on top of the cookie base and move the peanuts around if they appear to be uneven at all in the caramel. Let it mostly cool at room temperature before refrigerating for at least 24 hours or until firm to the touch.",
+      "Once chilled and the caramel feels mostly solid to the touch, you can slice into bars. It will be soft but solid. Remove the whole thing from the pan with the edges of the parchment. Pull the sides of the parchment down. Cut in half and then each half can be sliced into 7 x 1-inch bars.",
+      "Keep the bars refrigerated until ready to coat in the chocolate coating.",
+      "To melt the chocolate wafers, place them in a heat safe glass bowl over a sauce pan with a bit of boiling water. Stir until melted and smooth. Remove the bowl from the heat.",
+      "To coat the bars, have a wire rack placed over a baking sheet or a sheet of wax paper on a baking sheet to lay out the coated bars. Dip the top, sides, and ends of the bar in the chocolate and allow the excess to drip off. Place bottom down on the wire rack or wax paper. Before the chocolate cools too much sprinkle with a bit of Maldon salt flakes on the top.",
+      "Once all the bars are coated, place the baking sheet in the freezer for about 5 minutes. Then you can go in and coat the bottom of the bars, if desired, and lay the bars on their side to allow the bottom to drip off and solidify.",
+      "You can serve immediately or keep refrigerated until ready to serve. I doubt they will last this long, but you can keep them in a container in the fridge for 2 to 3 weeks."
+    ],
+    url: "nGHZP9OGQFI"
+  },
+  {
+    day: 14,
+    title: "Pad Thai", // https://www.hotforfoodblog.com/recipes/2015/2/2/vegan-pad-thai/
+    description:
+      "Who doesn't love pad thai? I took the classic flavours and textures you love and cooked it up as a saucy, vegan-friendly meal.",
+    image:
+      "https://static1.squarespace.com/static/52a0e62be4b0aa09f5b95593/52a0f48ee4b0f982fc451b89/54d14c6be4b0ea27977efd5c/1423002742094/%23vegan+pad+thai+-+use+dates+instead+of+tamarind+paste%21+%7C+RECIPE+on+hotforfoodblog.com",
+    prep_time: 30,
+    cook_time: 35,
+    total_time: 65,
+    ingredients: [
+      "10 pitted medjool dates",
+      "1 C fresh filtered water",
+      "2 tbsp vegan oyster sauce",
+      "2 tbsp rice wine vinegar",
+      "2 tbsp low-sodium soy sauce or tamari",
+      "1 lime, juiced (about 2 to 3 tbsp)",
+      "1 tbsp sesame oil",
+      "2 tsp miso paste",
+      "2 tsp Sriracha (more to taste for spicier)",
+      "1 red thai chili (optional)",
+      "250 g flat rice noodles or brown rice fettuccine noodles",
+      "1 x 350 g brick medium firm or firm tofu",
+      "2 tbsp coconut oil, for frying",
+      "1 C thinly sliced onion",
+      "1 C thinly sliced carrots",
+      "1 C finely chopped celery",
+      "1 tbsp minced garlic (about 2 to 3 cloves)",
+      "3 C broccoli florets",
+      "3 C bean sprouts",
+      "1/4 C finely chopped green onion",
+      "1/4 C finely chopped cilantro",
+      "1/4 C finely chopped roasted salted cashews or roasted salted peanuts"
+    ],
+    instructions: [
+      "Place dates in a bowl of warm water to soak for 10 minutes or until softened.",
+      "Drain the water from the tofu and let it sit in paper towel for 10 to 15 minutes to get rid of excess moisture. Then cut into cubes.",
+      "Drain and rinse dates from soaking water, squeezing any excess moisture from them. Then place them in a high-powered blender with the 1 cup of fresh water and the rest of the sauce ingredients. Blend until very smooth and set aside.",
+      "If you want to replace the dates with tamarind paste, if you can find it, then start with 1 to 2 tablespoons and add more to taste. You'll probably need to reduce the amount of lime juice in the sauce as well since tamarind has more of a sour note.",
+      "FOR THE SPICE LEVEL: if you want to use fresh red thai chili, you can blend 1 pepper with the sauce either to replace Sriracha or in addition to. It all depends on how spicy you like your noodles! 1 pepper is a mild spice so add another half or whole pepper to your taste, or adjust using Sriracha once the entire dish is cooked and ready to be served. Just toss more Sriracha into the noodles.",
+      "Bring a pot of salted water to a boil for the noodles. Once the water is at a rolling boil, toss in the noodles and stir occasionally while they cook for approximately 10 minutes or until al dente! Drain and set aside.",
+      "Meanwhile, heat a large pan to medium heat and add 1 tablespoon of coconut oil and cubes of tofu. After 4 to 5 minutes, flip the cubes to another side to crisp. Flip the cubes every 2 minutes to get the rest of the sides golden brown.",
+      "When the tofu cubes are golden brown all around, add ¼ cup of the sauce to the pan and coat the pieces, evenly cooking over the heat for another minute or 2 until it looks more caramelized and dark. Remove tofu from the pan and set aside. You’ll toss tofu into the vegetables and noodles near end of cooking time.",
+      "In the same pan over medium heat, add another 1 tablespoon of oil and the onions, carrots, and celery. Cook for about 3 minutes, stirring frequently until softened. Then add in minced garlic and cook for another 1 to 2 minutes.",
+      "Then add in broccoli and sprouts (reserve a small amount of raw sprouts aside as a garnish on top of the finished pad thai), and cook for another 4 to 5 minutes, stirring frequently. Then add in half the amount of sauce remaining, toss to coat all the veggies and cook for another 2 to 3 minutes.",
+      "Add in the cooked noodles and remaining sauce, turn the heat down to low, toss to coat everything in sauce, and cook for another 3 to 4 minutes. At this stage you can adjust the spice level if you desire by adding another 1 to 2 teaspoons of Sriracha. Serve immediately and top with green onion, cilantro, raw sprouts, and chopped cashews (or peanuts)."
+    ],
+    url: "nXQW9yHxSzU"
   }
-{
-  day: 9,
-  title: "Cheeseburger Bites", // https://www.hotforfoodblog.com/recipes/2018/9/13/vegan-cheeseburger-bites/
-  description:
-    "Here's a fun way to transform a vegan cheeseburger into a party-perfect appetizer!",
-  image: "https://www.hotforfoodblog.com/wp-content/uploads/2019/05/vegancheeseburgerbites_hotforfood_filtered1-1024x683.jpg",
-  prep_time: 20,
-  cook_time: 25,
-  total_time: 45,
-  ingredients: [
-    "3 cups all-purpose flour",
-    "1 tsp sea salt",
-    "1 tbsp vegetable oil",
-    "1  cups warm water",
-    "1 tbsp cornstarch (to prevent sticking)",
-    "1 cups vegan mayonnaise",
-    "2 tbsp apple cider vinegar",
-    "2 tbsp sweet green relish",
-    "2 tbsp ketchup",
-    "1 tbsp dehydrated minced onion",
-    "1 tsp garlic powder",
-    "1/2 tsp ground black pepper",
-    "1 tbsp hot sauce (optional)",
-    "1 cups finely diced onion (about 1 onion)",
-    "1 ActiFry spoon vegetable oil",
-    "2 cups veggie ground round, thawed in the fridge overnight if previously frozen",
-    "1 tsp sea salt",
-    "1 tsp onion powder",
-    "1 tsp chili powder",
-    "1 tbsp vegan Worcestershire",
-    "1/2 cups finely diced pickle",
-    "1 cups vegan cheddar style shreds"
-  ],
-  instructions: [
-    "Prepare the dough by combining flour and sea salt in a mixing bowl. Create a well in the middle of the flour and add water and oil and stir to combine. Once the mixture is just combined but still in pieces you can gather the dough with your hands and knead to combine it into a ball. Then turn out onto a lightly floured surface and knead it about 10 to 15 times until it’s a smooth ball of dough. Wrap it in a tea towel or plastic wrap and let it rest for 20 minutes in the fridge.",
-    "Meanwhile combine the ingredients for the special sauce in a bowl or jar and refrigerate before serving.",
-    "Add the onions and vegetable oil to the basin of the ActiFry and set timer for 10 minutes. After 6 minutes add the veggie ground round, sea salt, spices, and Worcestershire and continue cooking another 4 minutes.",
-    "Empty this mixture into a large mixing bowl and combine with pickles and cheese.",
-    "Wipe out the basin of the ActiFry and place it back in the base with the snack tray.",
-    "Have a large cutting board or baking sheet dusted with cornstarch prepared. Portion the dough in half. Roll out one half onto a lightly floured surface to 1/8-inch thick.",
-    "Cut out 4 1/4 to 4 1/2-inch wide circles with a cookie cutter. Remove excess dough and press together to form a ball of dough. Place cut out rounds onto your sheet or cutting board dusted with cornstarch. Continue to roll out the dough and cut out circles until the dough is used up.",
-    "Scoop a heaping tablespoon of filling on top of each cut out circle. Gather and pinch all the edges of the dough together around the filling creating a bundle of dough at the top that you can pinch and twist to seal. Gently place the gathered side down onto the surface dusted with cornstarch. You should have nice rounded mounds but they don’t have to be perfect. Just ensure there’s no gaps or holes in the dough. At this point you could freeze the cheeseburger bites between layers of parchment paper. Cook from frozen as instructed below.",
-    "Lightly oil the snack tray of the Actifry and place 5 to 6 bites slightly spaced apart on the tray. Brush or spray the tops with oil.",
-    "Set the timer of the ActiFry for 15 minutes and cook until evenly golden brown on top. Continue cooking in batches. If cooking from frozen it may take up to 20 minutes per batch. Serve immediately with special sauce."
-  ],
-  url: "mllIoJJjt0s"
-}
-{
-  day: 10,
-  title: "BOSHballs", // https://www.bosh.tv/recipes/pasta-with-bosh-balls-veganuary-week-3
-  description: "These are our delicious homemade BOSH! balls! Think of them as a healthy meat ball!",
-  image: "https://d12ph5aixxtnio.cloudfront.net/uploads/images/recipes/_full/5894/kale-balls.jpg",
-  prep_time: 20,
-  cook_time: 25,
-  total_time: 45,
-  ingredients: [
-    "1 tbsp of olive oil + 1 tbsp of olive oil plus more for frying",
-    "1 small onion",
-    "1 large clove of garlic",
-    "10g fresh basil",
-    "10g fresh parsley",
-    "400g kale",
-    "1 tsp of fennel seeds",
-    "Pinch of red chilli flakes",
-    "zest and juice of half a lemon",
-    "1-2 slices of stale bread",
-    "4 tbsp flour",
-    "1 tbsp of olive oil",
-    "1 onion",
-    "2 garlic cloves",
-    "Pinch of chilli flakes",
-    "1 can of plum tomatoes",
-    "100g kale",
-    "150g whole wheat spaghetti",
-    "10g parsley",
-    "10g magic dust (nutritional yeast)"
-  ],
-  instructions: [
-    
-  ],
-  url: "mllIoJJjt0s"
-}
 ];
 
 Recipes.insertMany(recipes).then(data => {
