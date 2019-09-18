@@ -260,7 +260,231 @@ const recipes = [
       "Add the coriander stalks"
     ],
     url: "Jpq6puQleJ0"
+  },
+  {
+    day: 6,
+    title: "Ratatouille", // https://thehappypear.ie/recipes/one-pot-wonder-ratatouille/
+    description:
+      "Ratatouille is a delicious belly warmer with a name fancy enough to impress anyone you cook for. This one cooks itself, once you have everything in the pan Mr. Oven does the rest.",
+    image:
+      "https://www.thefullhelping.com/wp-content/uploads/2019/07/Tempeh-ratatouille-3.jpg",
+    prep_time: 10,
+    cook_time: 10,
+    total_time: 20,
+    ingredients: [
+      "3 cloves of garlic",
+      "Olive oil",
+      "1 Red onion",
+      "1 head of garlic",
+      "1 courgette",
+      "1 aubergine",
+      "1 red pepper",
+      "1 yellow pepper",
+      "200 g potatoes",
+      "2 bay leaves",
+      "½ tsp black pepper",
+      "1 ½ tsp salt",
+      "400 ml water",
+      "2 tins of tomatoes",
+      "1 tsp mixed herbs",
+      "Basil to garnish"
+    ],
+    instructions: [
+      "Preheat oven to 160 degrees celcius",
+      "Roughly chop your veg and cut the top off the garlic",
+      "Put 1 tbsp oil into an oven proof pan on a high heat and add the onion. Add the courgette, peppers, potatoes, aubergine and bay leaves",
+      "Reduce to medium heat and add the black pepper, tins of chopped tomatoes, salt and water",
+      "Cover the pan with a lid and bake in oven for 1 hour along with the head of garlic which you roast for about 25 minutes",
+      "Take out your ratatouille and check the potatoes are cooked",
+      "Add your mixed herbs and roughly chop the roasted garlic and mix through",
+      "To garnish, pluck the basil leaves off the stalk and add to your ratatouille"
+    ],
+    url: "nVZdm31RjjU"
+  },
+  {
+    day: 7,
+    title: "Breakfast Taquitos", // https://www.hotforfoodblog.com/recipes/2019/08/28/vegan-breakfast-taquitos/
+    description:
+      "Make early mornings a little easier with these breakfast taquitos! Tofu scramble, vegan cheddar, vegan sausage, and kale are a totally A+ combo.",
+    image:
+      "https://www.hotforfoodblog.com/wp-content/uploads/2019/08/breakfasttaquitos_hotforfood_filtered2-1.jpg",
+    prep_time: 20,
+    cook_time: 40,
+    total_time: 60,
+    ingredients: [
+      "1 (14 oz/450 g) brick of firm tofu (packed in water)",
+      "1/2 a large shallot, minced (about 2 tbsp) *used the other half for sausage mixture below",
+      "1 tsp vegetable oil",
+      "2 tbsp nutritional yeast",
+      "1/2 tsp ground tumeric",
+      "1/2 tsp smoked paprika",
+      "1/4 to 1/2 tsp sea salt, to taste",
+      "1/2 tsp ground black pepper",
+      "1/4 C unsweetened nondairy milk",
+      "1 tbsp vegetable oil",
+      "1/2 a large shallot, minced (about 2 tbsp)",
+      "2 spicy vegan sausages, thawed if from frozen (we used Beyond Meat hot italian sausages)",
+      "1 C tightly packed baby kale",
+      "1/2 tsp whole fennel seeds",
+      "1/4 tsp sea salt",
+      "1 x (7 oz/200 g) bag vegan cheddar shreds (about 2 cups)",
+      "12 x 6-inch vegan flour tortillas",
+      "1/2 C tomato salsa or salsa verde (for dipping)",
+      "1/4 C tightly packed, finely chopped cilantro or green onion, as garnish"
+    ],
+    instructions: [
+      "Use a paper towel to pat the tofu dry. To make the scramble, in a medium nonstick pan over medium high heat, fry the shallot in vegetable oil for 1 minute until soft.",
+      "Crumble the tofu into the pan with your hands. Fry it for 2 to 3 minutes. Then stir in nutritional yeast, turmeric, smoked paprika, sea salt, and ground pepper. Fry for 4 more minutes until the liquid evaporates and the tofu begins to brown slightly.",
+      "Add the nondairy milk, combine well, cook for another 2 minutes. Separate half the tofu mixture into a large bowl and set aside. Reserve the other half of the mixture for another use. Wipe out the pan.",
+      "To make the sausage mixture, remove the outer sausage casing (if applicable). Heat the nonstick pan over medium heat with vegetable oil and crumble the sausage into small bite size pieces into the pan. Add shallot, fennel seeds and sea salt. Sauté until soft and the sausage is browned, about 8 to 10 minutes. Add baby kale and sauté until wilted. Add the sausage mixture into the tofu scramble and fold it in until combined. Set aside and wipe out the pan which you’ll use again to fry the taquitos.",
+      "To assemble your taquitos, add a pinch of vegan cheese shreds to a tortilla, then 2 tablespoons of the tofu and sausage mixture and top with another pinch of cheese. Roll up the taquitos tightly and place them seam side down onto a platter or baking sheet.",
+      "Heat up your nonstick pan over low to medium heat. Add 1 teaspoon of vegetable oil in an even layer. Depending on the size of your nonstick pan, fry 3 or 4 taquitos at a time seam side down, for about 3 to 4 minutes. Flip and lightly fry the other side, about another minute. Serve with your favorite salsa.",
+      "To freeze your taquitos, individually wrap your cooled taquitos in parchment paper and twist the ends so your ends stick out like a large candy wrapper or a Christmas cracker. Place in the freezer until serving.",
+      "To bake your taquitos from frozen, preheat oven to 425°F. Unwrap the taquitos from the parchment and place on a baking sheet. You can re-use the pieces of parchment from the taquitos! Bake for 10 minutes, flipping halfway until the filling is warmed through and the outside gets crispy.",
+      "To microwave your taquitos from frozen, put the taquitos (parchment paper and all) on a plate and heat them up for 45 seconds. Some of the filling may seep out so you’ll want a plate under the taquitos. Unwrap and enjoy!"
+    ],
+    url: "yRwrNa8FBj4"
+  },
+  {
+    day: 8,
+    title: "Cubano Sandwich", // https://www.hotforfoodblog.com/recipes/2019/08/14/vegan-cubano-sandwich/
+    description:
+      "You'll be blown away that this meaty, cheesy stacked cubano sandwich is completely vegan!",
+    image:
+      "https://www.hotforfoodblog.com/wp-content/uploads/2019/07/cubansandwich_hotforfood_filtered5.jpg",
+    prep_time: 25,
+    cook_time: 45,
+    total_time: 70,
+    ingredients: [
+      "1 1/2 C vital wheat gluten",
+      "1/8 C nutritional yeast",
+      "1 tsp onion powder",
+      "1/2 tsp sea salt",
+      "1/2 tsp celery salt",
+      "1/2 tsp smoked paprika",
+      "1/2 tsp garlic powder",
+      "1/2 tsp dried thyme",
+      "1/2 tsp dried oregano",
+      "1/2 tsp dried basil",
+      "1/2 tsp ground mustard",
+      "1/2 tsp ground black pepper",
+      "1 1/2 C vegan beef-flavored bouillon stock (or vegetable stock)",
+      "1/8 C vegetable oil",
+      "1 tbsp low sodium soy sauce or tamari",
+      "1 tbsp apple cider vinegar",
+      "1 1/2 tsp tomato paste",
+      "2 x (800 ml) cans hearts of palm, drained and hand pulled into shreds",
+      "1/2 tsp liquid smoke",
+      "2 tbsp apple cider vinegar",
+      "1 tbsp + 1 tsp low sodium soy sauce or tamari",
+      "4 tbsp brown sugar",
+      "1 tsp granulated garlic powder",
+      "1 tsp chili flakes",
+      "1 tsp smoked paprika",
+      "1 tsp sea salt",
+      "vegetable oil",
+      "4 vegan french rolls",
+      "4 tbsp vegan mayonnaise, divided",
+      "4 to 6 garlic dill pickles, sliced thin",
+      "6 to 8 slices vegan swiss cheese or mozzarella, divided",
+      "4 tbsp yellow mustard, divided",
+      "3 tbsp vegan butter, divided"
+    ],
+    instructions: [
+      "Preheat the oven at 350°F.",
+      "To make the seitan, in a large bowl add vital wheat gluten, nutritional yeast, onion powder, sea salt, celery salt, smoked paprika, garlic powder, dried thyme, dried oregano, dried basil, ground mustard and ground pepper.",
+      "In a separate bowl add your stock, vegetable oil, soy sauce or tamari, apple cider vinegar and tomato paste. Whisk to make sure it’s well combined. Pour the wet ingredients into the dry ingredients and mix with a wooden spoon until a dough forms.",
+      "Knead the dough on a clean surface, folding the dough over itself several times so you can feel the gluten forming. Form the dough into a rectangular log about 3.5 x 5-inches. Transfer the dough onto a large piece of heavy duty foil on a baking sheet. Tightly wrap the log and twist the ends. You may need 2 sheets of foil to make sure it’s covered completely and there are no tears in the foil.",
+      "Bake for 90 minutes. Allow to cool to room temperature before refrigerating overnight. To use, slice thinly with a knife or on a mandolin.",
+      "To make the vegan roast palm ‘pork’, take the drained hearts of palm and using your hands, pull the hearts of palm into thin shredded pieces about ⅛ to ¼-inch thick. Then add liquid smoke, apple cider vinegar, soy sauce or tamari, brown sugar, granulated garlic powder, chili flakes, smoked paprika and sea salt. Toss to coat all the pieces evenly.",
+      "Heat up a cast iron pan or a non-stick pan over medium heat. You may need to pan fry the hearts of palm mixture in 2 batches. Add some vegetable oil and the hearts of palm mixture. Pan fry for 8 to 10 minutes until slightly charred in places and warmed through. Set aside.",
+      "To assemble your sandwiches, spread 1 tablespoon of vegan mayonnaise on the bottom of the french roll, then add about 80 g of sliced seitan, some vegan roast palm ‘pork’, pickle slices, 2 slices of vegan cheese and spread some yellow mustard on the top half of the french roll.",
+      "To grill your sandwiches, put 1 teaspoon of vegan butter in a cast iron grill pan set to medium-high heat. Place 2 sandwiches onto the grill pan and weigh down the top. Grill for 3 to 4 minutes on each side until the tops have golden grill marks and the cheese is melted. Add more butter when flipping the sandwiches and turn down the heat slightly if needed. Repeat with the last batch of sandwiches. Slice sandwiches in half and serve immediately!"
+    ],
+    url: "xmoHlOM8"
   }
+{
+  day: 9,
+  title: "Cheeseburger Bites", // https://www.hotforfoodblog.com/recipes/2018/9/13/vegan-cheeseburger-bites/
+  description:
+    "Here's a fun way to transform a vegan cheeseburger into a party-perfect appetizer!",
+  image: "https://www.hotforfoodblog.com/wp-content/uploads/2019/05/vegancheeseburgerbites_hotforfood_filtered1-1024x683.jpg",
+  prep_time: 20,
+  cook_time: 25,
+  total_time: 45,
+  ingredients: [
+    "3 cups all-purpose flour",
+    "1 tsp sea salt",
+    "1 tbsp vegetable oil",
+    "1  cups warm water",
+    "1 tbsp cornstarch (to prevent sticking)",
+    "1 cups vegan mayonnaise",
+    "2 tbsp apple cider vinegar",
+    "2 tbsp sweet green relish",
+    "2 tbsp ketchup",
+    "1 tbsp dehydrated minced onion",
+    "1 tsp garlic powder",
+    "1/2 tsp ground black pepper",
+    "1 tbsp hot sauce (optional)",
+    "1 cups finely diced onion (about 1 onion)",
+    "1 ActiFry spoon vegetable oil",
+    "2 cups veggie ground round, thawed in the fridge overnight if previously frozen",
+    "1 tsp sea salt",
+    "1 tsp onion powder",
+    "1 tsp chili powder",
+    "1 tbsp vegan Worcestershire",
+    "1/2 cups finely diced pickle",
+    "1 cups vegan cheddar style shreds"
+  ],
+  instructions: [
+    "Prepare the dough by combining flour and sea salt in a mixing bowl. Create a well in the middle of the flour and add water and oil and stir to combine. Once the mixture is just combined but still in pieces you can gather the dough with your hands and knead to combine it into a ball. Then turn out onto a lightly floured surface and knead it about 10 to 15 times until it’s a smooth ball of dough. Wrap it in a tea towel or plastic wrap and let it rest for 20 minutes in the fridge.",
+    "Meanwhile combine the ingredients for the special sauce in a bowl or jar and refrigerate before serving.",
+    "Add the onions and vegetable oil to the basin of the ActiFry and set timer for 10 minutes. After 6 minutes add the veggie ground round, sea salt, spices, and Worcestershire and continue cooking another 4 minutes.",
+    "Empty this mixture into a large mixing bowl and combine with pickles and cheese.",
+    "Wipe out the basin of the ActiFry and place it back in the base with the snack tray.",
+    "Have a large cutting board or baking sheet dusted with cornstarch prepared. Portion the dough in half. Roll out one half onto a lightly floured surface to 1/8-inch thick.",
+    "Cut out 4 1/4 to 4 1/2-inch wide circles with a cookie cutter. Remove excess dough and press together to form a ball of dough. Place cut out rounds onto your sheet or cutting board dusted with cornstarch. Continue to roll out the dough and cut out circles until the dough is used up.",
+    "Scoop a heaping tablespoon of filling on top of each cut out circle. Gather and pinch all the edges of the dough together around the filling creating a bundle of dough at the top that you can pinch and twist to seal. Gently place the gathered side down onto the surface dusted with cornstarch. You should have nice rounded mounds but they don’t have to be perfect. Just ensure there’s no gaps or holes in the dough. At this point you could freeze the cheeseburger bites between layers of parchment paper. Cook from frozen as instructed below.",
+    "Lightly oil the snack tray of the Actifry and place 5 to 6 bites slightly spaced apart on the tray. Brush or spray the tops with oil.",
+    "Set the timer of the ActiFry for 15 minutes and cook until evenly golden brown on top. Continue cooking in batches. If cooking from frozen it may take up to 20 minutes per batch. Serve immediately with special sauce."
+  ],
+  url: "mllIoJJjt0s"
+}
+{
+  day: 10,
+  title: "BOSHballs", // https://www.bosh.tv/recipes/pasta-with-bosh-balls-veganuary-week-3
+  description: "These are our delicious homemade BOSH! balls! Think of them as a healthy meat ball!",
+  image: "https://d12ph5aixxtnio.cloudfront.net/uploads/images/recipes/_full/5894/kale-balls.jpg",
+  prep_time: 20,
+  cook_time: 25,
+  total_time: 45,
+  ingredients: [
+    "1 tbsp of olive oil + 1 tbsp of olive oil plus more for frying",
+    "1 small onion",
+    "1 large clove of garlic",
+    "10g fresh basil",
+    "10g fresh parsley",
+    "400g kale",
+    "1 tsp of fennel seeds",
+    "Pinch of red chilli flakes",
+    "zest and juice of half a lemon",
+    "1-2 slices of stale bread",
+    "4 tbsp flour",
+    "1 tbsp of olive oil",
+    "1 onion",
+    "2 garlic cloves",
+    "Pinch of chilli flakes",
+    "1 can of plum tomatoes",
+    "100g kale",
+    "150g whole wheat spaghetti",
+    "10g parsley",
+    "10g magic dust (nutritional yeast)"
+  ],
+  instructions: [
+    
+  ],
+  url: "mllIoJJjt0s"
+}
 ];
 
 Recipes.insertMany(recipes).then(data => {

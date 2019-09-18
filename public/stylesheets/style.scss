@@ -99,6 +99,7 @@ hr {
 .animalsBody {
   display: flex;
   justify-content: center;
+  align-items: center;
   background: url("https://images.unsplash.com/photo-1495107334309-fcf20504a5ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80")
     no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -130,11 +131,13 @@ hr {
   height: 70vh;
 }
 
+/* ########################################## - ENVIRONMENT STYLE - ########################################## */
+
 .environmentBody {
   display: flex;
   justify-content: center;
-
-  background: url("https://grist.files.wordpress.com/2015/09/steamingmanure.jpg")
+  align-items: center;
+  background: url("https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/6/1/2/6/2366216-1-eng-GB/Danish-pig-farmers-start-testing-their-own-herds-as-MRSA-risk-grows.jpg")
     no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -147,10 +150,31 @@ hr {
 .environmentContainer {
   display: flex;
   flex-direction: column;
+  text-align: center;
+  padding: 2% 4% 2% 4%;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3), 0 1px 4px rgba(0, 0, 0, 0.2);
-  padding: 2% 3% 5% 3%;
-  width: 70vw;
-  height: 80vh;
+  width: 50vw;
+  height: 60vh;
   border-radius: 8px;
   background-color: rgba(255, 255, 255, 0.9);
+  position: relative;
+}
+
+.envHeader h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.environmentContainer h2 {
+  font-size: 1.3rem;
+  align-self: center;
+  justify-content: center;
+}
+
+#envSource {
+  font-size: 0.7rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }

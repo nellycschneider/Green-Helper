@@ -14,17 +14,16 @@
 <body>
 
   <div class="animalsBody">
-    <div style="padding: 5% 10% 5% 10%;">
-      <div class="animalsContainer">
-        {{!-- <h1>Animals</h1> --}}
-        {{#with animal}}
-        <h3>{{name}}</h3>
-        <br>
-        <iframe id="animalsUrl" src="https://www.youtube.com/embed/{{url}}" frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        {{/with}}
-      </div>
+    <div class="animalsContainer">
+      {{!-- <h1>Animals</h1> --}}
+      {{#with animal}}
+      <h3>{{name}}</h3>
+      <br>
+      <iframe id="animalsUrl" src="https://www.youtube.com/embed/{{url}}" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      {{/with}}
     </div>
+  </div>
   </div>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

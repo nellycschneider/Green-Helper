@@ -14,24 +14,20 @@
 <body>
 
   <div class="environmentBody">
-    <div style="padding: 3% 20% 3% 20%;">
-      <div class="environmentContainer">
-        <h1>Environment</h1>
-
-        {{#each environment}}
-        <ul>
-          {{#each facts}}
-          <h2>&quot;{{this}}&quot;</h2>
-          {{/each}}
-        </ul>
-        <ul>
-          {{#each sources}}
-          <p>{{this}}</p>
-          {{/each}}
-        </ul>
-        {{/each}}
-
+    <div class="environmentContainer">
+      <div class="envHeader">
+        <h1>Effects on the environment</h1>
       </div>
+      {{#each environment}}
+      {{!-- <ul> --}}
+      {{#each facts}}
+      <h2>“{{this}}”</h2>
+      {{/each}}
+      </ul>
+      {{#each sources}}
+      <p id="envSource">{{this}}</p>
+      {{/each}}
+      {{/each}}
     </div>
   </div>
 
