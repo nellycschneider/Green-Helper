@@ -52,7 +52,6 @@ body {
 .btn-secondary:focus {
   color: #333333;
   text-shadow: none;
-  /* Prevent inheritance from `body` */
   background-color: white;
   border: 0.05rem solid #fff; }
 
