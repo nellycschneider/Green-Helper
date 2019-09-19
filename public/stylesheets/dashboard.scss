@@ -138,6 +138,12 @@ body {
   overflow-y: scroll;
 }
 
+.icons {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+
 //resources page
 
 .resources {
@@ -176,4 +182,10 @@ body {
   justify-content: center;
   align-items: center;
   margin-bottom: 60px;
+}
+
+.icons-res {
+  display: flex;
+  justify-content: center;
+  padding-top: 35px;
 }
