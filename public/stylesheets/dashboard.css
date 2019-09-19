@@ -10,7 +10,8 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
+  background-size: cover;
+  background-attachment: fixed; }
 
 .headings {
   text-align: center;
@@ -32,6 +33,7 @@ body {
   height: 60vh; }
 
 .small-container {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -154,5 +156,53 @@ body {
   display: flex;
   justify-content: center;
   padding-top: 35px; }
+
+/* ########################################## - DOCUMENTARIES STYLE - ########################################## */
+.documentaries {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center; }
+
+.documentaries h2,
+p {
+  color: white;
+  font-weight: bolder; }
+
+.docImg {
+  width: 100%;
+  height: 150px; }
+
+.docPics {
+  background-color: black;
+  width: 15vw;
+  height: 150px; }
+
+.docLinks {
+  font-size: 1.5rem;
+  color: #ffffff;
+  font-weight: bolder; }
+
+.docLinks:hover {
+  text-decoration: underline;
+  color: #ffffff; }
+
+.small-container-docs {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(178, 212, 150, 0);
+  margin: 30px;
+  width: 20vw;
+  height: 30vh;
+  border-radius: 8px; }
+
+.main-container-docs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh; }
 
 /*# sourceMappingURL=dashboard.css.map */
