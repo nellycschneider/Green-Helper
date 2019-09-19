@@ -6,7 +6,7 @@ body {
 
 /* ########################################## - RECIPES STYLE - ########################################## */
 .recipeBody {
-  background: url("https://images.unsplash.com/photo-1562666810-08c31d401860?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2657&q=80") no-repeat center center fixed;
+  background: url("https://images.unsplash.com/photo-1542320260-f8f651de8c12?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -81,7 +81,7 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("https://images.unsplash.com/photo-1495107334309-fcf20504a5ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80") no-repeat center center fixed;
+  background: url("https://images.unsplash.com/photo-1562874964-600781f0e41b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -113,7 +113,7 @@ hr {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url("https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/6/1/2/6/2366216-1-eng-GB/Danish-pig-farmers-start-testing-their-own-herds-as-MRSA-risk-grows.jpg") no-repeat center center fixed;
+  background: url("https://images.unsplash.com/photo-1516214104703-d870798883c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
