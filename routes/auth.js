@@ -55,7 +55,8 @@ router.post("/signup", (req, res, next) => {
 
     newUser
       .save()
-      .then(() => {
+      .then(user => {
+        req.session.passport.user = user;
         res.redirect("/dashboard");
       })
       .catch(err => {
