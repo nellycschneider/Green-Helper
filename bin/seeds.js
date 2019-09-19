@@ -855,8 +855,8 @@ let animalResources = [
   },
   {
     day: 2,
-    name: "The Food Matrix - 101 Reasons to Go Vegan",
-    url: "YnQb58BoBQw"
+    name: "10 minute version of 101 Reasons to Go Vegan - James Wildman",
+    url: "e1VyZvMYVXY"
   },
   {
     day: 3,
