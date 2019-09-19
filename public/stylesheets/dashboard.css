@@ -114,6 +114,11 @@ body {
   border-radius: 8px;
   overflow-y: scroll; }
 
+.icons {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px; }
+
 .resources {
   width: 80%;
   padding-left: 200px; }
@@ -144,5 +149,10 @@ body {
   justify-content: center;
   align-items: center;
   margin-bottom: 60px; }
+
+.icons-res {
+  display: flex;
+  justify-content: center;
+  padding-top: 35px; }
 
 /*# sourceMappingURL=dashboard.css.map */
