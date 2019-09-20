@@ -16,7 +16,7 @@ body {
 .headings {
   text-align: center;
   margin: 0;
-  padding-top: 60px;
+  padding-top: 20px;
   color: white; }
 
 .headings h1 {
@@ -162,10 +162,13 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center; }
+  text-align: center;
+  margin: 0; }
 
 .documentaries h2,
 p {
+  margin: 0;
+  padding: 0;
   color: white;
   font-weight: bolder; }
 
